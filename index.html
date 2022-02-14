@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>PAYTRIOT</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="assets/images/img-logo.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,16 +26,39 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button">Toggle link</a>
           </div>
         </div>
     </nav>
@@ -54,24 +80,62 @@
             </div>
         </div>
         <div class="container">
-            <div class="logo-container">
+            <div class="logo-container d-flex justify-content-between">
+              <div class="logo-sponsor">
+                <img src="assets/images/hilton-logo.png" alt="" class="w-100">
+              </div>
+              <div class="logo-sponsor">
+                <img src="assets/images/PizzaHut.png" alt="" class="w-100">
+              </div>
+              <div class="logo-sponsor">
+                <img src="assets/images/logo-matra.png" alt="" class="w-100">
+              </div>
+              <div class="logo-sponsor">
+                <img src="assets/images/logo-drk.png" alt="" class="w-100">
+              </div>
+              <div class="logo-sponsor">
+                <img src="assets/images/logo-hi.png" alt="" class="w-100">
+              </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
-            </div>
+          <h2 class="text-capitalize">The complete toolkit for internet business</h2>
+          <div class="row">
+              <div class="col-lg-4">
+                <div class="toolkit-wrap d-flex align-item-center">
+                  <div class="icon-toolkit">
+                    <img src="assets/images/icon-wallet.svg" alt="" class="">
+                  </div>
+                  <p class="p-18">Payment Gateway</p>
+                </div>
+              </div>
+              <div class="col-lg-4"></div>
+              <div class="col-lg-4"></div>
+          </div>
         </div>
     </section>
     <section class="wedo">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="text-capitalize">What We Do</h2>
+          <p class="p-18">Payriot Payments has many years' experience in all aspects of the International and online financial world. This allows us to offer the best solution, one which is tailored to the exact requirements of your business.</p>
+          <h1 class="big-text">Approval Rate? 90%</h1>
+        </div>
     </section>
     <section class="feature">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5"></div>
+                <div class="col-lg-5">
+                  <div class="txt-wrap">
+                    <h2>
+                      Paytriot Wallet
+                    </h2>
+                    <p class="p-18">
+                      Paytriot has their own dedicated wallet solution. Sign up to a Paytriot wallet account to securely use your email and password to pay at websites that accept Paytriot Payments. 
+                    </p>
+                    <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button">Toggle link</a>
+                    <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button">Toggle link</a>
+                  </div>
+                </div>
                 <div class="col-lg-6 offset-1"></div>
             </div>
         </div>
@@ -79,8 +143,19 @@
     <section class="supercharge">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-6 offset-1"></div>
+                <div class="col-lg-5">
+                  <img src="assets/images/img-supercharger.png" alt="" class="w-100">
+                </div>
+                <div class="col-lg-6 offset-1">
+                  <div class="txt-wrap">
+                    <h2 class="text-capitalize">
+                      Supercharge your business with Paytriot
+                    </h2>
+                    <p class="p-18">
+                      Paytriot has their own dedicated wallet solution. Sign up to a Paytriot wallet account to securely use your email and password to pay at websites that accept Paytriot Payments. 
+                    </p>
+                  </div>
+                </div>
             </div>
         </div>
     </section>

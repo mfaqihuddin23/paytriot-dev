@@ -1,3 +1,33 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* navbar  */
+.navbar{
+    margin-top: 57px;
+    margin-bottom: 91px;
+}
+.container-fluid{
+    max-width: 1170px;
+}
+.navbar-collapse{
+    max-width: 890px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #03011C;
+}
+
+/* button  */
+.btn-outline-primary {
+    color: #F7931E;
+    border-color: #F7931E;
+}
+.btn{
+    padding: 15px 20px;
+    border-radius: 40px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}

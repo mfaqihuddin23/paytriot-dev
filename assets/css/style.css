@@ -67,6 +67,13 @@ h3{
     line-height: 150%;
     color: #03011C;
 }
+h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 178%;
+    color: #03011C;
+}
 
 .p-18{
     font-style: normal;
@@ -191,7 +198,40 @@ section.paytriot-ads .btn-outline-primary{
 section.footer{
     padding: 100px 0;
 }
-
+.logo-footer{
+    height: 72px;
+}
+section.footer p.label-14{
+    font-weight: 300;
+    line-height: 150%;
+    color: #03011C;
+    margin-bottom: 80px;
+    max-width: 331px;
+}
+section.footer .label-14{
+    font-weight: 300;
+    line-height: 250%;
+    color: #03011C;
+}
+.icon-small{
+    width: 25px;
+    height: 25px;
+    margin-right: 34px;
+}
+.trademarks{
+    margin-top: 90px;
+}
+ul.nav-footer li{
+    list-style: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 200%;
+}
+ul.nav-footer li a{
+    color: #03011C;
+    text-decoration: none;
+}
 
 
 

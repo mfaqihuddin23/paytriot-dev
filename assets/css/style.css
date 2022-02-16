@@ -21,13 +21,102 @@ body{
 .btn-outline-primary {
     color: #F7931E;
     border-color: #F7931E;
-}
-.btn{
-    padding: 15px 20px;
-    border-radius: 40px;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #F79A1F;
+    border-color: #F79A1F;
+    min-width: 200px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+}
+.btn{
+    padding: 21px 45px;
+    border-radius: 45px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* typography  */
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 105%;
+    color: #03011C;
+}
+h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #03011C;
+}
+
+.p-18{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #021639;
+}
+
+/* color  */
+.orange{
+    color: #F7931E;
+}
+
+/* section  */
+/* section hero  */
+section.hero{
+    background: url('../images/bg-hero.svg');
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-position: center top;
+}
+section.hero .container{
+    padding-bottom: 120px;
+}
+section.hero p{
+    max-width: 408px;
+}
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1170px;
+    }
+}
+

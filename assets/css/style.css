@@ -18,7 +18,17 @@ body{
 }
 
 /* button  */
+.btn{
+    padding: 21px 45px;
+    border-radius: 45px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
 .btn-outline-primary {
+    padding: 18px 33px;
     color: #F7931E;
     border-color: #F7931E;
     font-weight: 500;
@@ -33,15 +43,7 @@ body{
     min-width: 200px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
 }
-.btn{
-    padding: 21px 45px;
-    border-radius: 45px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-}
 
 /* typography  */
 h1{
@@ -56,7 +58,6 @@ h2{
     font-weight: bold;
     font-size: 48px;
     line-height: 120%;
-    text-align: center;
     color: #03011C;
 }
 
@@ -111,9 +112,18 @@ section.hero p{
 section.wedo {
     background: #F5FAFB;
     padding: 225px 0px;
+    margin-bottom: 120px;
 }
 section.wedo p{
     max-width: 836px;
+}
+
+/* section feature */
+section.feature .row{
+    margin-bottom: 120px;
+}
+section.feature img{
+    max-height: 628px;
 }
 
 

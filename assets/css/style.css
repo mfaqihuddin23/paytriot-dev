@@ -60,6 +60,13 @@ h2{
     line-height: 120%;
     color: #03011C;
 }
+h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #03011C;
+}
 
 .p-18{
     font-style: normal;
@@ -75,6 +82,13 @@ h2{
     font-size: 88px;
     line-height: 150%;
     color: #91939A;
+}
+.big-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 108px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
 /* color  */
@@ -134,6 +148,18 @@ section.supercharge{
 section.supercharge p{
     margin-bottom: 70px;
 }
+
+/* section getpaid  */
+section.getpaid{
+    padding: 200px 0;
+}
+.getpaid-wrap{
+    padding: 20px 128px;
+    background: linear-gradient(165.48deg, #AFB5FE -3.55%, #6B5EFF 109.95%);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
 
 
 

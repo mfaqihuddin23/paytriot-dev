@@ -126,6 +126,16 @@ section.feature img{
     max-height: 628px;
 }
 
+/* section supercharge  */
+section.supercharge{
+    background: #F5FAFB;
+    padding: 140px 0px;
+}
+section.supercharge p{
+    margin-bottom: 70px;
+}
+
+
 
 
 /* // X-Small devices (portrait phones, less than 576px) */

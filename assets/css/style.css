@@ -75,6 +75,13 @@ h3{
     line-height: 150%;
     color: #021639;
 }
+.label-14{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
 
 .big-title{
     font-style: normal;
@@ -159,6 +166,32 @@ section.getpaid{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
+
+/* section paytriot-ads */
+section.paytriot-ads .container{
+    background: linear-gradient(190.58deg, #FFE95D -65.85%, #FF595D 110.58%);
+    border-radius: 30px;
+}
+section.paytriot-ads .row{
+    background: url('../images/bg-row-ads.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+section.paytriot-ads h2{
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+section.paytriot-ads .btn-outline-primary{
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+/* section footer  */
+section.footer{
+    padding: 100px 0;
+}
+
 
 
 

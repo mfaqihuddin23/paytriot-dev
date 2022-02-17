@@ -14,7 +14,21 @@ body{
     max-width: 890px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #03011C;
+    /* color: #03011C; */
+    color: #021639;
+}
+.dropdown-menu{
+    padding: 32px;
+}
+.dropdown-menu[data-bs-popper]{
+    left: -400%;
+}
+.dropdown-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 250%;
+    color: #021639;
 }
 
 /* button  */
@@ -73,6 +87,13 @@ h4{
     font-size: 18px;
     line-height: 178%;
     color: #03011C;
+}
+h5{
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #F7931E !important;
 }
 
 .p-18{

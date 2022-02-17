@@ -19,6 +19,13 @@
     });
 
     document.body.classList.add("bg-dark");
+    document.getElementById("logoswitch").classList.add("logo-dark");
+
+    if (document.getElementById("logoswitch").classList.contains("logo-dark")) {
+      document.getElementById("logoswitch").classList.replace("logo-dark", "logo-light");
+    } else {
+      document.getElementById("logoswitch").classList.add("logo-light");
+    }
 
     if (document.body.classList.contains("text-dark")) {
       document.body.classList.replace("text-dark", "text-light");
@@ -43,6 +50,20 @@
     });
 
     document.body.classList.add("bg-light");
+    document.getElementById("logoswitch").classList.add("logo-light");
+    document.getElementById("navbarDarkDropdownMenuLink").classList.add("light-mode");
+    
+    if (document.getElementById("navbarDarkDropdownMenuLink").classList.contains("light-mode")) {
+      document.getElementById("navbarDarkDropdownMenuLink").classList.replace("light-mode", "dark-mode");
+    } else {
+      document.getElementById("navbarDarkDropdownMenuLink").classList.add("dark-mode");
+    }
+    
+    if (document.getElementById("logoswitch").classList.contains("logo-light")) {
+      document.getElementById("logoswitch").classList.replace("logo-light", "logo-dark");
+    } else {
+      document.getElementById("logoswitch").classList.add("logo-dark");
+    }
 
     if (document.body.classList.contains("text-light")) {
       document.body.classList.replace("text-light", "text-dark");

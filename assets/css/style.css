@@ -155,7 +155,7 @@ h5{
     font-weight: normal;
     font-size: 108px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
 /* color  */
@@ -258,6 +258,7 @@ section.paytriot-ads .row{
     background: url('../images/bg-row-ads.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
+    border-radius: 30px;
 }
 section.paytriot-ads h2{
     font-weight: 600;
@@ -397,6 +398,10 @@ ul.nav-footer li{
 .text-light h2{
     color: #FFFFFF;
 }
+.text-light h3{
+    color: #FFFFFF;
+}
+
 
 .text-dark .p-18{
     color: #021639;
@@ -463,4 +468,10 @@ ul.nav-footer li{
 /* section supercharge */
 .bg-dark section.supercharge{
     background: #1C1B2A;
+}
+
+/* section paytriot-ads  */
+.bg-dark section.paytriot-ads .container{
+    background: #F7931E;
+    border-radius: 30px;
 }

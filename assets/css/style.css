@@ -185,6 +185,28 @@ section.hero p{
     width: 50px;
     height: 50px;
 }
+.logo-sponsor{
+    width: 126px;
+    height: 87px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: auto !important;
+}
+.sponsor1{
+    background: url('../images/hilton-logo.png');
+}
+.sponsor2{
+    background: url('../images/PizzaHut.png');
+}
+.sponsor3{
+    background: url('../images/logo-matra.png');
+}
+.sponsor4{
+    background: url('../images/logo-drk.png');
+}
+.sponsor5{
+    background: url('../images/logo-hi.png');
+}
 
 /* section wedo  */
 section.wedo {
@@ -346,10 +368,10 @@ ul.nav-footer li{
 .text-dark .navbar-nav .nav-link{
     color: #021639 !important;
 }
-.text-dark .dropdown-menu{
+.bg-light .dropdown-menu{
     background-color: #FFFFFF;
 }
-.text-light .dropdown-menu{
+.bg-dark .dropdown-menu{
     background-color: #03011C;
 }
 .text-dark .dropdown-item{
@@ -357,4 +379,73 @@ ul.nav-footer li{
 }
 .text-light .dropdown-item{
     color: #FFFFFF;
+}
+
+/* typography  */
+.text-dark h1{
+    color: #03011C;
+}
+.text-light h1{
+    color: #FFFFFF;
+}
+.text-dark h2{
+    color: #03011C;
+}
+.text-light h2{
+    color: #FFFFFF;
+}
+
+.text-dark .p-18{
+    color: #021639;
+}
+.text-light .p-18{
+    color: #FFFFFF;
+}
+
+/* section hero  */
+.bg-light section.hero {
+    background: url('../images/bg-hero.svg');
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-position: center top;
+}
+.bg-dark section.hero {
+    background: url('../images/bg-hero-dark.svg');
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-position: center top;
+}
+.bg-light .sponsor1{
+    background: url('../images/hilton-logo.png');
+}
+.bg-light .sponsor2{
+    background: url('../images/PizzaHut.png');
+}
+.bg-light .sponsor3{
+    background: url('../images/logo-matra.png');
+}
+.bg-light .sponsor4{
+    background: url('../images/logo-drk.png');
+}
+.bg-light .sponsor5{
+    background: url('../images/logo-hi.png');
+}
+.bg-dark .sponsor1{
+    background: url('../images/hilton-logo-light.png');
+}
+.bg-dark .sponsor2{
+    background: url('../images/PizzaHutLight.png');
+}
+.bg-dark .sponsor3{
+    background: url('../images/logo-matra-light.png');
+}
+.bg-dark .sponsor4{
+    background: url('../images/logo-drk-light.png');
+}
+.bg-dark .sponsor5{
+    background: url('../images/logo-hi-light.png');
+}
+.bg-dark .toolkit-wrap{
+    background: #13121D;
+    box-shadow: 0px 8.57283px 42.8641px rgba(0, 0, 0, 0.05);
 }

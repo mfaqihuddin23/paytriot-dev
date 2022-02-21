@@ -20,6 +20,13 @@
 
     document.body.classList.add("bg-dark");
     document.getElementById("logoswitch").classList.add("logo-dark");
+    document.getElementById("textswitch").classList.add("text-dark");
+
+    if (document.getElementById("textswitch").classList.contains("text-dark")) {
+      document.getElementById("textswitch").classList.replace("text-dark", "text-light");
+    } else {
+      document.getElementById("textswitch").classList.add("text-light");
+    }
 
     if (document.getElementById("logoswitch").classList.contains("logo-dark")) {
       document.getElementById("logoswitch").classList.replace("logo-dark", "logo-light");
@@ -51,14 +58,15 @@
 
     document.body.classList.add("bg-light");
     document.getElementById("logoswitch").classList.add("logo-light");
-    document.getElementById("navbarDarkDropdownMenuLink").classList.add("light-mode");
+    document.getElementById("textswitch").classList.add("text-light");
+    // document.getElementById("navbarDarkDropdownMenuLink").classList.add("light-mode");
     
-    if (document.getElementById("navbarDarkDropdownMenuLink").classList.contains("light-mode")) {
-      document.getElementById("navbarDarkDropdownMenuLink").classList.replace("light-mode", "dark-mode");
+    if (document.getElementById("textswitch").classList.contains("text-light")) {
+      document.getElementById("textswitch").classList.replace("text-light", "text-dark");
     } else {
-      document.getElementById("navbarDarkDropdownMenuLink").classList.add("dark-mode");
+      document.getElementById("textswitch").classList.add("text-dark");
     }
-    
+
     if (document.getElementById("logoswitch").classList.contains("logo-light")) {
       document.getElementById("logoswitch").classList.replace("logo-light", "logo-dark");
     } else {

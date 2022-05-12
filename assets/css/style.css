@@ -64,6 +64,10 @@ body{
     min-width: 200px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
 }
+.meet-us{
+    font-weight: 500;
+    text-decoration: none;
+}
 .store{
     background-color: #FFFFFF;
 }
@@ -123,9 +127,12 @@ h4{
 }
 h5{
     font-style: normal;
-    font-weight: 600 !important;
-    font-size: 16px !important;
-    line-height: 24px !important;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #021639;
+}
+h5.dropdown-item{
     color: #F7931E !important;
 }
 
@@ -136,6 +143,19 @@ h5{
     line-height: 150%;
     color: #021639;
 }
+.p-16{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #021639;
+}
+
+.text-opacity{
+    opacity: 0.5;
+}
+
 .label-14{
     font-style: normal;
     font-weight: normal;
@@ -273,6 +293,12 @@ section.paytriot-ads h2{
 section.paytriot-ads .btn-outline-primary{
     border-color: #FFFFFF;
     background: #FFFFFF;
+}
+
+/* section customer-say  */
+.cust-prof{
+    width: 100px;
+    height: 100px;
 }
 
 /* section footer  */
@@ -459,7 +485,7 @@ ul.nav-footer li{
     line-height: 178%;
     color: #FFFFFF;
 }
-h5{
+.text-light h5{
     font-style: normal;
     font-weight: 600 !important;
     font-size: 16px !important;

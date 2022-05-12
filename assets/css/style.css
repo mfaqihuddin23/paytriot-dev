@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /* navbar  */
@@ -213,9 +214,13 @@ section.hero p{
 
 /* section wedo  */
 section.wedo {
-    background: #F5FAFB;
+    /* background: #F5FAFB; */
     padding: 225px 0px;
     margin-bottom: 120px;
+    animation-name: backgroundColorPalette;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 section.wedo p{
     max-width: 836px;
@@ -591,3 +596,21 @@ h5{
 .bg-dark .supportedby.logo3{
     background: url('../images/logo-visa-dark.svg');
 }
+
+@keyframes backgroundColorPalette {
+    /* 0% {
+      background: #ee6055;
+    }
+    25% {
+      background: #60d394;
+    } */
+    50% {
+      background: #aaf683;
+    }
+    /* 75% {
+      background: #ffd97d;
+    } */
+    100% {
+      background: #ff9b85;
+    }
+  }

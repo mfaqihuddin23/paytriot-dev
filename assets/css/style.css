@@ -295,7 +295,24 @@ section.paytriot-ads .btn-outline-primary{
     background: #FFFFFF;
 }
 
+/* section our-story  */
+.story-box{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 31px 51px;
+    max-width: 430px;
+}
+
 /* section customer-say  */
+.testi-wrap{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+    padding: 55px 40px;
+    height: 100%;
+}
 .cust-prof{
     width: 100px;
     height: 100px;

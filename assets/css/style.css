@@ -356,6 +356,11 @@ section.customer-say .swiper{
     height: 100px;
 }
 
+/* section wedo-about  */
+section.wedo-about{
+    padding: 170px 0;
+}
+
 /* section footer  */
 section.footer{
     padding: 100px 0;

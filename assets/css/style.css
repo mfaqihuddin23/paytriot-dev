@@ -336,8 +336,12 @@ section.customer-say{
     background: #F5FAFB;
     padding: 160px 0;
 }
-section.customer-say .row{
+section.customer-say .swiper{
     margin-top: 60px;
+}
+.swiper-pagination{
+    position: relative;
+    margin-top: 70px;
 }
 .testi-wrap{
     background: #FFFFFF;

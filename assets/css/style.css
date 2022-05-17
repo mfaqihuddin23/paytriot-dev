@@ -3,6 +3,13 @@ body{
     
 }
 
+.dekstop{
+    display: none;
+}
+.mobile{
+    display: inherit;
+}
+
 /* navbar  */
 .img-logo{
     opacity: 0%;
@@ -148,6 +155,14 @@ h5.dropdown-item{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    text-align: center;
+    color: #021639;
+}
+.p-14{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 179%;
     text-align: center;
     color: #021639;
 }
@@ -361,6 +376,24 @@ section.wedo-about{
     padding: 170px 0;
 }
 
+/* section contact-us */
+.contact-wrap{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+    padding: 44px 32px 40px;
+    height: 100%;
+    max-width: 370px;
+}
+.contact-icon{
+    max-width: 55px;
+    /* max-height: 55px; */
+}
+.contact-wrap p{
+    max-width: 272px;
+}
+
 /* section footer  */
 section.footer{
     padding: 100px 0;
@@ -465,7 +498,12 @@ ul.nav-footer li{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    
+    .dekstop{
+        display:inherit;
+    }
+    .mobile{
+        display: none;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */

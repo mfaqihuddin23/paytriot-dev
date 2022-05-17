@@ -142,6 +142,13 @@ h5{
 h5.dropdown-item{
     color: #F7931E !important;
 }
+h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #021639;
+}
 
 .p-18{
     font-style: normal;
@@ -392,6 +399,11 @@ section.wedo-about{
 }
 .contact-wrap p{
     max-width: 272px;
+}
+
+/* section partners  */
+.logo-partners{
+    max-width: 150px;
 }
 
 /* section footer  */

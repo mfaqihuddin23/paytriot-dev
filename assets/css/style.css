@@ -144,11 +144,13 @@ h5.dropdown-item{
 }
 h6{
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 160%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: capitalize;
     color: #021639;
 }
+
 
 .p-18{
     font-style: normal;
@@ -162,7 +164,7 @@ h6{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    text-align: center;
+    /* text-align: center; */
     color: #021639;
 }
 .p-14{
@@ -178,12 +180,28 @@ h6{
     opacity: 0.5;
 }
 
+.partners-txt{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #021639;
+}
+
 .label-14{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 200%;
     color: #FFFFFF;
+}
+.label-date{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #021639;
 }
 
 .big-title{
@@ -414,6 +432,9 @@ section.partners{
     max-height: 61px;
     margin-bottom: 30px;
 }
+
+/* section news-blog  */
+
 
 /* section footer  */
 section.footer{

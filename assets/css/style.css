@@ -402,8 +402,17 @@ section.wedo-about{
 }
 
 /* section partners  */
+section.partners{
+    margin-bottom: 150px;
+}
+.partners-box{
+    justify-content: end;
+    height: 250px;
+}
 .logo-partners{
     max-width: 150px;
+    max-height: 61px;
+    margin-bottom: 30px;
 }
 
 /* section footer  */

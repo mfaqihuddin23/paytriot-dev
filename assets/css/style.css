@@ -435,6 +435,10 @@ section.partners{
 
 /* section news-blog  */
 
+/* section signup */
+section.signup form{
+    max-width: 450px;
+}
 
 /* section footer  */
 section.footer{

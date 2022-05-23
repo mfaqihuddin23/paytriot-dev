@@ -11,6 +11,9 @@ body{
 }
 
 /* navbar  */
+.wrapper-nav{
+    width: 40%;
+}
 .img-logo{
     opacity: 0%;
 }
@@ -203,6 +206,13 @@ h6{
     line-height: 120%;
     text-transform: capitalize;
     color: #021639;
+}
+.label-form{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #060606;
 }
 
 .big-title{
@@ -436,9 +446,24 @@ section.partners{
 
 /* section news-blog  */
 
+/* section signin */
+
 /* section signup */
 section.signup form{
     max-width: 450px;
+}
+.form-field{
+    border: 1px solid #D4D5D9;
+    border-radius: 5px;
+}
+.box-check{
+    border: 1px solid #F7931E;
+    background-color: #fff;
+    height: 1em;
+}
+.box-check:checked{
+    background-color: #F7931E;
+    border-color: #F7931E;
 }
 
 /* section wallet  */

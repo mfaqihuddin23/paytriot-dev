@@ -109,7 +109,7 @@ h1{
     font-weight: bold;
     font-size: 72px;
     line-height: 105%;
-    color: #03011C;
+    color: #021639;
 }
 h2{
     font-style: normal;
@@ -124,14 +124,14 @@ h3{
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
-    color: #03011C;
+    color: #021639;
 }
 h4{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 178%;
-    color: #03011C;
+    color: #021639;
 }
 h5{
     font-style: normal;
@@ -461,11 +461,32 @@ section.wallet p{
 }
 
 /* section banking  */
+section.banking{
+    padding-bottom: 130px;
+}
 
 /* section account  */
+section.account{
+    padding: 100px 0 130px;
+    background: #F5FAFB;
+}
+section.account h2{
+    margin-bottom: 80px;
+}
 section.account img{
     max-width: 70px;
     max-height: 70px;
+}
+
+/* section companion  */
+section.companion{
+    padding: 160px 0 120px;
+}
+section.companion div.row{
+    margin-top: 100px;
+}
+section.companion div.txt-wrap{
+    max-width: 470px;
 }
 
 /* section footer  */

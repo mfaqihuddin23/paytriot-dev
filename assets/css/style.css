@@ -116,7 +116,8 @@ h2{
     font-weight: bold;
     font-size: 48px;
     line-height: 120%;
-    color: #03011C;
+    /* color: #03011C; */
+    color: #021639;
 }
 h3{
     font-style: normal;
@@ -440,6 +441,33 @@ section.signup form{
     max-width: 450px;
 }
 
+/* section wallet  */
+section.wallet{
+    padding-bottom: 120px;
+}
+/* section.wallet h2{
+    color: #021639;
+} */
+section.wallet p{
+    margin-top:1rem;
+}
+.accordion-body p{
+    line-height: 160%;
+    max-width: 400px;
+}
+.accordion-button img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+/* section banking  */
+
+/* section account  */
+section.account img{
+    max-width: 70px;
+    max-height: 70px;
+}
+
 /* section footer  */
 section.footer{
     padding: 100px 0;
@@ -606,28 +634,28 @@ ul.nav-footer li{
     font-weight: bold;
     font-size: 72px;
     line-height: 105%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .text-light h2{
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .text-light h3{
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .text-light h4{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 178%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .text-light h5{
     font-style: normal;
@@ -642,14 +670,14 @@ ul.nav-footer li{
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 .label-14{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 200%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
 /* section hero  */

@@ -18,7 +18,7 @@ body{
     opacity: 0%;
 }
 .navbar{
-    margin-top: 57px;
+    padding-top: 57px;
     margin-bottom: 91px;
 }
 .container-fluid{
@@ -68,9 +68,16 @@ body{
     text-align: center;
 }
 .btn-primary {
-    color: #fff;
+    color: #FFFFFF;
     background-color: #F79A1F;
     border-color: #F79A1F;
+    min-width: 200px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+}
+.btn-secondary {
+    color: #021639;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
     min-width: 200px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
 }
@@ -576,6 +583,24 @@ section.companion div.row{
 section.companion div.txt-wrap{
     max-width: 470px;
 }
+
+/* section services  */
+section.services {
+    background: url('../images/img-services-header.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 167px;
+}
+.text-services{
+    max-width: 500px;
+}
+section.services h2{
+    color: #021639 !important;
+}
+section.services p{
+    color: #021639 !important;
+}
+
 
 /* section footer  */
 section.footer{

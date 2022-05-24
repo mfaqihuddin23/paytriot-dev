@@ -197,7 +197,7 @@ h6{
     font-weight: normal;
     font-size: 14px;
     line-height: 200%;
-    color: #FFFFFF;
+    color: #021639;
 }
 .label-date{
     font-style: normal;
@@ -223,6 +223,18 @@ h6{
     color: #000000;
 }
 .label-account a{
+    text-decoration: none;
+}
+.label-check{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #777E91;
+}
+.label-check a{
+    font-weight: 500;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -769,7 +781,7 @@ ul.nav-footer li{
     line-height: 150%;
     color: #FFFFFF !important;
 }
-.label-14{
+.text-light .label-14{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

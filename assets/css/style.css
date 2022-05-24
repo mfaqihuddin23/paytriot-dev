@@ -209,10 +209,21 @@ h6{
 }
 .label-form{
     font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 188%;
-color: #060606;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #060606;
+}
+.label-account{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #000000;
+}
+.label-account a{
+    text-decoration: none;
 }
 
 .big-title{
@@ -452,10 +463,50 @@ section.partners{
 section.signup form{
     max-width: 450px;
 }
+.form-select{
+    border: 1px solid #D4D5D9 !important;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    padding: 15px;
+}
 .form-field{
-    border: 1px solid #D4D5D9;
+    border: 1px solid #D4D5D9 !important;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    
+}
+.form-control{
+    border: none;
+    padding: 15px;
+    background-color: transparent;
+}
+.label-form.fa{
+    color: #D4D5D9;
+}
+.form-field button{
+    border: 0 transparent;
+    color: transparent;
+    border-color: transparent;
+
+    padding: 15px;
     border-radius: 5px;
 }
+.form-field button:hover{
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+.form-field button:active:focus{
+    box-shadow: none;
+}
+
+
 .box-check{
     border: 1px solid #F7931E;
     background-color: #fff;

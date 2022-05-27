@@ -11,6 +11,9 @@
     
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="node_modules/matter-js/build/matter.js"></script>
+    <script defer type="text/javascript" src="assets/js/cart-interactive.js"></script>
+
 
     <title>PAYTRIOT</title>
   </head>
@@ -263,14 +266,16 @@
         <img src="assets/images/img-dashboard.svg" alt="" class="w-100">
       </div>
     </section>
-    <section class="merchant-services">
-      <div class="container">
-        <h2 class="text-center">
-          Merchant Services
-        </h2>
-        <p class="p-18 text-center">
-          Paytriot Payments are directly registered with Visa and MasterCard. Processing and settlement will all be through Paytriot and we will provide the gateway and merchant account as an all in one solution.
-        </p>
+    <section class="merchant-services  d-flex flex-column align-items-center">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="text-wrap mb-5">
+          <h2 class="text-center mb-4">
+            Merchant Services
+          </h2>
+          <p class="p-18 text-center">
+            Paytriot Payments are directly registered with Visa and MasterCard. Processing and settlement will all be through Paytriot and we will provide the gateway and merchant account as an all in one solution.
+          </p>
+        </div>
         <div class="row">
           <div class="col-lg-3">
             <div class="services-item d-flex align-items-center justify-content-center">
@@ -282,43 +287,51 @@
           <div class="col-lg-3">
             <div class="services-item d-flex align-items-center justify-content-center">
               <label for="item-services" class="label-services text-center">
-                Competitive Rates
+                Smooth Boarding Process
               </label>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="services-item d-flex align-items-center justify-content-center">
               <label for="item-services" class="label-services text-center">
-                Competitive Rates
+                Multi-Currency
               </label>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="services-item d-flex align-items-center justify-content-center">
               <label for="item-services" class="label-services text-center">
-                Competitive Rates
+                UK based Customer Service
               </label>
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <h2 class="text-center">
-          Shopping Cart Integrations
-        </h2>
-        <p class="p-18 text-center">
-          Paytriot is integrated with all major shopping cart providers and cashiers. We can provide you with a ready-to-go modules linked to
-        </p>
+      <div class="container d-flex flex-column align-items-center">
+        <div class="text-wrap mb-5">
+          <h2 class="text-center mb-4">
+            Shopping Cart Integrations
+          </h2>
+          <p class="p-18 text-center">
+            Paytriot is integrated with all major shopping cart providers and cashiers. We can provide you with a ready-to-go modules linked to
+          </p>
+        </div>
         
+        <div class="cart-interactive" id="cart-container">
+          <img src="assets/images/img-cart-roof.svg" alt="" class="w-100 mb-4">
+        </div>
+        <!-- <img src="assets/images/img-cart-sample.svg" alt="" class="w-100"> -->
       </div>
-      <div class="container">
-        <h2 class="text-center">
-          Payment Gateway
-        </h2>
-        <p class="p-18 text-center">
-          Our Payment Gateway will let you as an online business accept payments on your website smoothly and securely. Our gateway is configured with third party fraud tools that will help reduce chargebacks and block fraudulent transactions.
-        </p>
-        
+      <div class="container d-flex flex-column align-items-center mb-0 ">
+        <div class="text-wrap mb-5">
+          <h2 class="text-center mb-4">
+            Payment Gateway
+          </h2>
+          <p class="p-18 text-center">
+            Our Payment Gateway will let you as an online business accept payments on your website smoothly and securely. Our gateway is configured with third party fraud tools that will help reduce chargebacks and block fraudulent transactions.
+          </p>
+        </div>
+        <img src="assets/images/img-gateway.svg" alt="" class="w-100">
       </div>
     </section>
     <section class="paytriot-ads">
@@ -464,7 +477,7 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     
     <script src="assets/js/switch.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
+    <!-- <script src="assets/js/smoothscroll.js"></script> -->
     <script src="assets/js/slider.js"></script>
 
   </body>

@@ -609,7 +609,16 @@ section.services p{
     color: #021639 !important;
 }
 
+/* section dashboard */
+section.dashboard {
+    margin-top: -90px;
+    padding-bottom: 120px;
+}
+
 /* section merchant-services  */
+section.merchant-services .container{
+    margin-bottom: 152px;
+}
 .services-item{
     height: 261px;
     padding: 35px;
@@ -625,6 +634,15 @@ section.services p{
     box-shadow: 0px 20px 44px -24px rgba(255, 162, 0, 0.25);
     border-radius: 40px;
     color: #FFFFFF;
+}
+section.merchant-services div.text-wrap{
+    max-width: 830px;
+}
+.cart-interactive{
+    max-width: 834px;
+    /* max-height: 421px; */
+    /* border-radius: 20px; */
+    overflow: hidden;
 }
 
 /* section footer  */

@@ -359,10 +359,10 @@ section.feature img{
 /* section supercharge  */
 section.supercharge{
     background: #F5FAFB;
-    padding: 140px 0px;
+    padding: 90px 0px;
 }
 section.supercharge p{
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 }
 
 /* section getpaid  */
@@ -838,6 +838,15 @@ ul.nav-footer li{
     /* section feature */
     section.feature .row{
         margin-bottom: 120px;
+    }
+
+    /* section supercharge  */
+    section.supercharge{
+        background: #F5FAFB;
+        padding: 140px 0px;
+    }
+    section.supercharge p{
+        margin-bottom: 70px;
     }
 
     /* section getpaid  */

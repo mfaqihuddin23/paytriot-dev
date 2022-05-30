@@ -303,6 +303,7 @@ section.hero p{
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     margin-bottom: 30px;
+    height: 80%;
 }
 .icon-toolkit{
     max-width: 50px;
@@ -398,6 +399,9 @@ section.paytriot-ads .label-14{
 section.paytriot-ads .btn-outline-primary{
     border-color: #FFFFFF;
     background: #FFFFFF;
+}
+section.paytriot-ads img{
+    width: 100%;
 }
 
 /* section our-story  */
@@ -867,6 +871,9 @@ ul.nav-footer li{
     }
     section.paytriot-ads .row{
         border-radius: 30px;
+    }
+    section.paytriot-ads img{
+        width: auto;
     }
 
 

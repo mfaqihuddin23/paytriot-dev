@@ -64,7 +64,7 @@ body{
     line-height: 21px;
 }
 .btn-outline-primary {
-    padding: 18px 33px;
+    padding: 15px 20px;
     color: #F7931E;
     border-color: #F7931E;
     font-weight: 500;
@@ -139,7 +139,7 @@ h2{
 h3{
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 150%;
     color: #021639;
 }
@@ -367,7 +367,7 @@ section.supercharge p{
 
 /* section getpaid  */
 section.getpaid{
-    padding: 200px 0;
+    padding: 100px 0;
 }
 .getpaid-wrap{
     padding: 15px 90px;
@@ -379,17 +379,20 @@ section.getpaid{
 /* section paytriot-ads */
 section.paytriot-ads .container{
     background: linear-gradient(190.58deg, #FFE95D -65.85%, #FF595D 110.58%);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 section.paytriot-ads .row{
     background: url('../images/bg-row-ads.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 section.paytriot-ads h2{
     font-weight: 600;
     line-height: 150%;
+    color: #FFFFFF;
+}
+section.paytriot-ads .label-14{
     color: #FFFFFF;
 }
 section.paytriot-ads .btn-outline-primary{
@@ -775,8 +778,6 @@ ul.nav-footer li{
     }
     .btn-outline-primary {
         padding: 18px 33px;
-        color: #F7931E;
-        border-color: #F7931E;
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
@@ -806,6 +807,9 @@ ul.nav-footer li{
     }
     h2{
         font-size: 48px;
+    }
+    h3{
+        font-size: 24px;
     }
 
     .p-18{
@@ -850,8 +854,19 @@ ul.nav-footer li{
     }
 
     /* section getpaid  */
+    section.getpaid{
+        padding: 200px 0;
+    }
     .getpaid-wrap{
         padding: 20px 128px;
+    }
+
+    /* section paytriot-ads */
+    section.paytriot-ads .container{
+        border-radius: 30px;
+    }
+    section.paytriot-ads .row{
+        border-radius: 30px;
     }
 }
 
@@ -908,31 +923,15 @@ ul.nav-footer li{
     color: #FFFFFF !important;
 }
 .text-light h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 120%;
     color: #FFFFFF !important;
 }
 .text-light h3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 150%;
     color: #FFFFFF !important;
 }
 .text-light h4{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 178%;
     color: #FFFFFF !important;
 }
 .text-light h5{
-    font-style: normal;
-    font-weight: 600 !important;
-    font-size: 16px !important;
-    line-height: 24px !important;
     color: #F7931E !important;
 }
 
@@ -940,10 +939,6 @@ ul.nav-footer li{
     color: #FFFFFF !important;
 }
 .text-light .label-14{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 200%;
     color: #FFFFFF !important;
 }
 

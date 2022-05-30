@@ -3,6 +3,10 @@ body{
     
 }
 
+.container{
+    width: 80%;
+}
+
 .dekstop{
     display: none;
 }
@@ -50,13 +54,14 @@ body{
 
 /* button  */
 .btn{
-    padding: 21px 45px;
+    /* padding: 21px 45px; */
+    padding: 15px 20px;
     border-radius: 45px;
 
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 21px;
 }
 .btn-outline-primary {
     padding: 18px 33px;
@@ -117,7 +122,8 @@ body{
 h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
+    /* font-size: 72px; */
+    font-size: 32px;
     line-height: 105%;
     color: #021639;
 }
@@ -166,7 +172,8 @@ h6{
 .p-18{
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 12px;
     line-height: 150%;
     color: #021639;
 }
@@ -263,7 +270,8 @@ h6{
 .big-text{
     font-style: normal;
     font-weight: normal;
-    font-size: 108px;
+    /* font-size: 108px; */
+    font-size: 74px;
     line-height: 150%;
     color: #FFFFFF !important;
 }
@@ -276,12 +284,17 @@ h6{
 /* section  */
 /* section hero  */
 section.hero{
+    /* background: url('../images/bg-hero.svg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
+    /* background-position: center top; */
+}
+section.hero .container{
     background: url('../images/bg-hero.svg');
     background-repeat: no-repeat;
     /* background-size: auto; */
     background-position: center top;
-}
-section.hero .container{
+    padding-top: 52px;
     padding-bottom: 120px;
 }
 section.hero p{
@@ -755,6 +768,30 @@ ul.nav-footer li{
     .mobile{
         display: none;
     }
+
+    /* button  */
+    .btn{
+        padding: 21px 45px;
+
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    /* typography  */
+    h1{
+        font-size: 72px;
+    }
+
+    .p-18{
+        font-size: 18px;
+    }
+
+    .big-title{
+        font-size: 88px;
+    }
+    .big-text{
+        font-size: 108px;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -807,10 +844,6 @@ ul.nav-footer li{
 /* typography  */
 
 .text-light h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 105%;
     color: #FFFFFF !important;
 }
 .text-light h2{
@@ -843,10 +876,6 @@ ul.nav-footer li{
 }
 
 .text-light .p-18{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
     color: #FFFFFF !important;
 }
 .text-light .label-14{
@@ -858,13 +887,13 @@ ul.nav-footer li{
 }
 
 /* section hero  */
-.bg-light section.hero {
+.bg-light section.hero .container{
     background: url('../images/bg-hero.svg');
     background-repeat: no-repeat;
     /* background-size: auto; */
     background-position: center top;
 }
-.bg-dark section.hero {
+.bg-dark section.hero .container{
     background: url('../images/bg-hero-dark.svg');
     background-repeat: no-repeat;
     /* background-size: auto; */

@@ -23,7 +23,7 @@ var render = Render.create({
         height: 421,
         showAngleIndicator: false,
         wireframes: false,
-        background:'#021639',
+        background:'transparent',
     }
 });
 
@@ -35,32 +35,92 @@ var boxA = Bodies.circle(400, 200, 60,{
         }
     }
 });
-var boxB = Bodies.rectangle(450, 50, 80, 80);
+var boxB = Bodies.circle(450, 50, 54,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-presta.svg',
+        }
+    }
+});
+var boxC = Bodies.circle(400, 200, 42,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-zencart.svg',
+        }
+    }
+});
+var boxD = Bodies.circle(450, 50, 70,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-woocommerce.svg',
+        }
+    }
+});
+var boxE = Bodies.circle(400, 200, 51,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-opencart.svg',
+        }
+    }
+});
+var boxF = Bodies.circle(450, 50, 52,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-100.svg',
+        }
+    }
+});
+var boxG = Bodies.circle(450, 50, 70,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-magento.svg',
+        }
+    }
+});var boxH = Bodies.circle(450, 50, 70,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-bigcommerce.svg',
+        }
+    }
+});var boxI = Bodies.circle(450, 50, 70,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-shopify.svg',
+        }
+    }
+});var boxJ = Bodies.circle(400, 50, 34,{
+    render: {
+        sprite: {
+            texture: './assets/images/img-km.svg',
+        }
+    }
+});
+
 var wallL = Bodies.rectangle(70, 200, 10, 450, { isStatic: true,
     render: {
-        // fillStyle: '#EBEBEB',
-        fillStyle: '#14cc2d',
+        fillStyle: '#EBEBEB',
+        // fillStyle: '#14cc2d',
     },
     angle: Math.PI * 0.9,
 });
 var wallR = Bodies.rectangle(770, 200, 10, 450, { isStatic: true,
     render: {
-        // fillStyle: '#EBEBEB',
-        fillStyle: '#14cc2d',
+        fillStyle: '#EBEBEB',
+        // fillStyle: '#14cc2d',
     },
     angle: Math.PI * 0.09,
 });
-var ground = Bodies.trapezoid(423.5, 415, 576, 10, -0.01, { isStatic: true,
-    // chamfer: { radius: [5, 0, 0, 5] },
+var ground = Bodies.trapezoid(421, 415, 576, 10, -0.01, { isStatic: true,
+    chamfer: { radius: [5, 0, 0, 5] },
     render: {
-        fillStyle: '#14cc2d',
+        fillStyle: '#EBEBEB',
         lineWidth: 0,
         // strokeStyle: '#14cc2d',
     },
 });
 var roof = Bodies.rectangle(420, 0, 820, 20, { isStatic: true,
     render: {
-        fillStyle: '#14cc2d',
+        fillStyle: '#EBEBEB',
         lineWidth: 0,
         // strokeStyle: '#14cc2d',
     },
@@ -68,7 +128,7 @@ var roof = Bodies.rectangle(420, 0, 820, 20, { isStatic: true,
 });
 
 // add all of the bodies to the world
-Composite.add(world, [boxA, boxB]);
+Composite.add(world, [boxA, boxB, boxC, boxD, boxE, boxF, boxG, boxH, boxI, boxJ,]);
 // Composite.add(world, [roof, wallL, wallR, ground,]);
 Composite.add(world, [roof, wallL, wallR, ground,]);
 

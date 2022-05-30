@@ -671,14 +671,14 @@ section.footer{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
-    width: 218px;
-    height: 72px;
+    width: 150px;
+    height: 50px;
 }
 section.footer p.label-14{
     font-weight: 300;
     line-height: 150%;
     color: #03011C;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     max-width: 331px;
 }
 section.footer .label-14{
@@ -867,6 +867,17 @@ ul.nav-footer li{
     }
     section.paytriot-ads .row{
         border-radius: 30px;
+    }
+
+
+    /* section footer  */
+    .footer-brand{
+        background-size: cover;
+        width: 218px;
+        height: 72px;
+    }
+    section.footer p.label-14{
+        margin-bottom: 80px;
     }
 }
 

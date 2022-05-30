@@ -76,7 +76,7 @@ body{
     color: #FFFFFF;
     background-color: #F79A1F;
     border-color: #F79A1F;
-    min-width: 200px;
+    min-width: 110px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
 }
 .btn-secondary {
@@ -93,6 +93,7 @@ body{
 .store{
     background-color: #FFFFFF;
 }
+
 /* lightswitch  */
 .form-check-input{
     border: none;
@@ -337,7 +338,7 @@ img.about-hero{
 section.wedo {
     /* background: #F5FAFB; */
     padding: 100px 0px;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
     animation-name: backgroundColorPalette;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -349,7 +350,7 @@ section.wedo p{
 
 /* section feature */
 section.feature .row{
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 section.feature img{
     max-height: 628px;
@@ -772,6 +773,32 @@ ul.nav-footer li{
         font-size: 18px;
         line-height: 27px;
     }
+    .btn-outline-primary {
+        padding: 18px 33px;
+        color: #F7931E;
+        border-color: #F7931E;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .btn-primary {
+        min-width: 200px;
+    }
+    .btn-secondary {
+        color: #021639;
+        background-color: #FFFFFF;
+        border-color: #FFFFFF;
+        min-width: 200px;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+    }
+    .meet-us{
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .store{
+        background-color: #FFFFFF;
+    }
     
     /* typography  */
     h1{
@@ -805,6 +832,12 @@ ul.nav-footer li{
     /* section wedo  */
     section.wedo{
         padding: 225px 0px;
+        margin-bottom: 120px;
+    }
+
+    /* section feature */
+    section.feature .row{
+        margin-bottom: 120px;
     }
 
     /* section getpaid  */

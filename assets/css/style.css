@@ -306,8 +306,9 @@ section.hero p{
     height: 80%;
 }
 .icon-toolkit{
-    max-width: 50px;
-    max-height: 50px;
+    /* max-width: 50px; */
+    /* max-height: 50px; */
+    height: 50px;
 }
 .logo-sponsor{
     width: 126px;
@@ -355,6 +356,7 @@ section.feature .row{
 }
 section.feature img{
     max-height: 628px;
+    max-width: 100%;
 }
 
 /* section supercharge  */
@@ -363,7 +365,10 @@ section.supercharge{
     padding: 90px 0px;
 }
 section.supercharge p{
-    /* margin-bottom: 70px; */
+    max-width: 500px;
+}
+section.supercharge img{
+    max-width: 470px;
 }
 
 /* section getpaid  */
@@ -371,7 +376,9 @@ section.getpaid{
     padding: 100px 0;
 }
 .getpaid-wrap{
-    padding: 15px 90px;
+    /* padding: 15px 90px; */
+    padding: 15px 30px;
+    width: 100%;
     background: linear-gradient(165.48deg, #AFB5FE -3.55%, #6B5EFF 109.95%);
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -862,7 +869,7 @@ ul.nav-footer li{
         padding: 200px 0;
     }
     .getpaid-wrap{
-        padding: 20px 128px;
+        padding: 20px 30px;
     }
 
     /* section paytriot-ads */
@@ -875,6 +882,7 @@ ul.nav-footer li{
     section.paytriot-ads img{
         width: auto;
     }
+    
 
 
     /* section footer  */

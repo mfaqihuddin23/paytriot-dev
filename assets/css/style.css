@@ -6,6 +6,9 @@ body{
 .container{
     width: 80%;
 }
+.container-fluid{
+    width: 90%;
+}
 
 .dekstop{
     display: none;
@@ -311,11 +314,10 @@ section.hero p{
     height: 50px;
 }
 .logo-sponsor{
-    width: 126px;
-    height: 87px;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: auto !important;
+    min-width: 64px;
+    min-height: 23px;
+    max-width: 126px;
+    max-height: 87px;
 }
 .sponsor1{
     background: url('../images/hilton-logo.png');
@@ -844,6 +846,7 @@ ul.nav-footer li{
         margin-bottom: 30px;
     }
 
+
     /* section wedo  */
     section.wedo{
         padding: 225px 0px;
@@ -981,36 +984,74 @@ ul.nav-footer li{
     /* background-size: auto; */
     background-position: center top;
 }
-.bg-light .sponsor1{
-    background: url('../images/hilton-logo.png');
+
+/* sponsor logo  */
+/* #1  */
+.bg-light .sponsor1-light{
+    display: block;
 }
-.bg-light .sponsor2{
-    background: url('../images/PizzaHut.png');
+.bg-dark .sponsor1-light{
+    display: none;
 }
-.bg-light .sponsor3{
-    background: url('../images/logo-matra.png');
+.bg-light .sponsor1-dark{
+    display: none;
 }
-.bg-light .sponsor4{
-    background: url('../images/logo-drk.png');
+.bg-dark .sponsor1-dark{
+    display: block;
 }
-.bg-light .sponsor5{
-    background: url('../images/logo-hi.png');
+/* #2  */
+.bg-light .sponsor2-light{
+    display: block;
 }
-.bg-dark .sponsor1{
-    background: url('../images/hilton-logo-light.png');
+.bg-dark .sponsor2-light{
+    display: none;
 }
-.bg-dark .sponsor2{
-    background: url('../images/PizzaHutLight.png');
+.bg-light .sponsor2-dark{
+    display: none;
 }
-.bg-dark .sponsor3{
-    background: url('../images/logo-matra-light.png');
+.bg-dark .sponsor2-dark{
+    display: block;
 }
-.bg-dark .sponsor4{
-    background: url('../images/logo-drk-light.png');
+/* #3  */
+.bg-light .sponsor3-light{
+    display: block;
 }
-.bg-dark .sponsor5{
-    background: url('../images/logo-hi-light.png');
+.bg-dark .sponsor3-light{
+    display: none;
 }
+.bg-light .sponsor3-dark{
+    display: none;
+}
+.bg-dark .sponsor3-dark{
+    display: block;
+}
+/* #4  */
+.bg-light .sponsor4-light{
+    display: block;
+}
+.bg-dark .sponsor4-light{
+    display: none;
+}
+.bg-light .sponsor4-dark{
+    display: none;
+}
+.bg-dark .sponsor4-dark{
+    display: block;
+}
+/* #5  */
+.bg-light .sponsor5-light{
+    display: block;
+}
+.bg-dark .sponsor5-light{
+    display: none;
+}
+.bg-light .sponsor5-dark{
+    display: none;
+}
+.bg-dark .sponsor5-dark{
+    display: block;
+}
+
 .bg-dark .toolkit-wrap{
     background: #13121D;
     box-shadow: 0px 8.57283px 42.8641px rgba(0, 0, 0, 0.05);

@@ -336,6 +336,7 @@ section.hero p{
 }
 img.about-hero{
     padding: 85px 0;
+    max-width: 500px;
 }
 
 /* section wedo  */
@@ -775,6 +776,12 @@ ul.nav-footer li{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    /* navbar  */
+    .navbar{
+        padding-top: 31px;
+        margin-bottom: 40px;
+    }
+
     .dekstop{
         display:inherit;
     }

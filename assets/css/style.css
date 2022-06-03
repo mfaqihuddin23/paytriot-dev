@@ -742,6 +742,7 @@ ul.nav-footer li{
     border-radius: 20px;
     opacity: 1;
     filter: drop-shadow(0px 7px 20px rgba(0, 0, 0, 0.05));
+    padding: 30px 32px;
 }
 .supportedby{
     /* width: 86px;
@@ -904,6 +905,9 @@ ul.nav-footer li{
     section.footer p.label-14{
         margin-bottom: 80px;
     }
+    .contact-card{
+        padding: 30px 42px;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -968,11 +972,14 @@ ul.nav-footer li{
     color: #FFFFFF !important;
 }
 .text-light h5{
-    color: #F7931E !important;
+    color: #FFFFFF !important;
 }
 
 .text-light .p-18{
     color: #FFFFFF !important;
+}
+.text-light .p-16{
+    color: #FFFFFF;
 }
 .text-light .label-14{
     color: #FFFFFF !important;
@@ -1080,6 +1087,23 @@ ul.nav-footer li{
 .bg-dark section.paytriot-ads .container{
     background: #F7931E;
     border-radius: 30px;
+}
+
+/* section our-story  */
+.bg-dark .story-box{
+    background: #13121D;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 31px 51px;
+    max-width: 430px;
+}
+
+/* section customer-say  */
+.bg-dark section.customer-say {
+    background: #13121D;
+}
+.bg-dark .testi-wrap{
+    background: #03011C;
 }
 
 /* section footer */

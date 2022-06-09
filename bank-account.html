@@ -17,7 +17,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="textswitch">
       <div class="container-fluid">
-        <a class="navbar-brand me-5" href="index.html">
+        <a class="navbar-brand" href="index.html">
           <!-- <img src="assets/images/img-logo.svg" alt="" > -->
           <div class="logo-light" id="logoswitch">
             <img src="assets/images/img-logo.svg" alt="" class="img-logo">
@@ -27,7 +27,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item mx-lg-2">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
@@ -72,10 +72,11 @@
               <a class="nav-link" aria-current="page" href="contact-us.html">Contact</a>
             </li>
           </ul>
-          <a href="signin.html" class="btn btn-outline-primary me-lg-4" >Sign In</a>
-          <!-- <a href="#"><img src="assets/images/icon_light_bulb.svg" alt=""></a> -->
-          <div class="form-check form-switch ms-auto">
-            <input class="form-check-input mt-0" type="checkbox" id="lightSwitch" />
+          <div class="d-flex align-items-center">
+            <a href="signin.html" class="btn btn-outline-primary me-lg-4" >Sign In</a>
+            <div class="form-check form-switch ms-auto">
+              <input class="form-check-input mt-0" type="checkbox" id="lightSwitch" />
+            </div>
           </div>
         </div>
       </div>
@@ -172,21 +173,21 @@
       </div>
     </section>
     <section class="paytriot-ads">
-      <div class="container">
+      <div class="container overflow-hidden">
         <div class="row">
-          <div class="col-6 offset-1 d-flex align-items-center">
-            <div class="txt-wrap">
-              <h2 class="mb-lg-5">
+          <div class="col-lg-6 offset-lg-1 d-flex align-items-center justify-content-center">
+            <div class="txt-wrap d-flex flex-column align-items-lg-start align-items-center py-5">
+              <h2 class="mb-4 mb-lg-5 text-center text-lg-start">
                 Charge Your Payment With Paytriot
               </h2>
-              <div class="label-wrap d-flex mb-5">
-                <div class="label-item d-flex align-items-center me-5">
+              <div class="label-wrap d-flex flex-column flex-lg-row mb-5">
+                <div class="label-item d-flex align-items-center me-lg-5 mb-3 mb-lg-0">
                   <div class="icon-small me-1">
                     <img src="assets/images/icon-check-white.svg" alt="">
                   </div>
                   <label for="label-14" class="label-14">Quick Access</label>
                 </div>
-                <div class="label-item d-flex align-items-center me-5">
+                <div class="label-item d-flex align-items-center me-lg-5 mb-3 mb-lg-0">
                   <div class="icon-small me-1">
                     <img src="assets/images/icon-check-white.svg" alt="">
                   </div>
@@ -199,12 +200,14 @@
                   <label for="label-14" class="label-14">24x7 Support</label>
                 </div>
               </div>
-              <a href="#" class="btn btn-outline-primary me-3" role="button" data-bs-toggle="button"><img src="assets/images/logo-googleplay.svg" alt=""></a>
-              <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button"><img src="assets/images/logo-appstore.svg" alt=""></a>
+              <div class="btn-wrap d-flex">
+                <a href="#" class="btn btn-outline-primary me-3" role="button" data-bs-toggle="button"><img src="assets/images/logo-googleplay.svg" alt="" class="w-100"></a>
+              <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button"><img src="assets/images/logo-appstore.svg" alt="" class="w-100"></a>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img src="assets/images/bg-paytriots-ads.png" alt="">
+          <div class="col-lg-4 d-flex d-lg-block align-items-start">
+            <img src="assets/images/bg-paytriots-ads.png" alt="" class="">
           </div>
         </div>
       </div>
@@ -212,14 +215,14 @@
     <section class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                  <div class="footer-brand mb-5">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <div class="footer-brand mb-4 mb-lg-5">
                     <img src="assets/images/img-logo.svg" alt="" class="logo-footer img-logo">
                   </div>
-                  <p class="label-14">
+                  <p class="label-14 mb-4 mb-lg-0">
                     Payriot Payments has many years' experience in all aspects of the International and online financial world.
                   </p>
-                  <div class="socmed d-flex">
+                  <div class="socmed d-flex mb-4">
                     <div class="icon-small icon1">
                       <img src="assets/images/icon-facebook.svg" alt="" class="img-logo">
                     </div>
@@ -236,11 +239,12 @@
                       <img src="assets/images/icon-email.svg" alt="" class="img-logo">
                     </div>
                   </div>
+                  <label for="label-14/200% light d-inline-block d-lg-none">@ 2021 Paytriot Ltd </label>
                 </div>
-                <div class="col-lg-3 offset-1 pt-3">
+                <div class="col-lg-3 offset-lg-1 pt-lg-3 mb-4">
                   <h4>Useful Links</h4>
-                  <div class="nav-item-wrap d-flex justify-content-start mt-3">
-                    <ul class="nav-footer ps-0 me-5">
+                  <div class="nav-item-wrap d-flex justify-content-between justify-content-lg-start mt-3">
+                    <ul class="nav-footer ps-0 me-4">
                       <li>
                         <a href="#">Home</a>
                       </li>
@@ -257,7 +261,7 @@
                         <a href="#">Clients</a>
                       </li>
                     </ul>
-                    <ul class="nav-footer ps-0">
+                    <ul class="nav-footer ps-0 me-3">
                       <li>
                         <a href="#">Service</a>
                       </li>
@@ -277,7 +281,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4">
-                  <div class="contact-card py-3 ps-5 mb-4">
+                  <div class="contact-card mb-4">
                     <h4>Contact Details</h4>
                     <div class="address-wrap">
                       <label for="label-14/light" class="label-14"><span>Address:</span> The Charter Building, Charter Place, Uxbridge, UB8 1JG</label>
@@ -285,7 +289,7 @@
                       <label for="label-14/light" class="label-14"><span>Email:</span> info@paytriot.co.uk</label>
                     </div>
                   </div>
-                  <div class="logo-payment d-flex align-items-center ps-4">
+                  <div class="logo-payment d-flex align-items-center ps-lg-4">
                     <div class="supportedby logo1">
                       <img src="assets/images/logo-onthelist.svg" alt="" class="img-logo me-5">
                     </div>
@@ -296,9 +300,13 @@
                       <img src="assets/images/logo-visa.svg" alt="" class="img-logo">
                     </div>
                   </div>
+                  <div class="terms-policy d-block d-lg-none mt-4">
+                    <a href="#" class="label-14 me-3">Terms & Agreements</a>
+                    <a href="#" class="label-14">Privacy Policy</a>
+                  </div>
                 </div>
             </div>
-            <div class="trademarks d-flex justify-content-between">
+            <div class="trademarks d-lg-flex justify-content-between d-none">
               <label for="label-14/200% light">@ 2021 Paytriot Ltd </label>
               <div class="terms-policy">
                 <a href="#" class="label-14 me-3">Terms & Agreements</a>

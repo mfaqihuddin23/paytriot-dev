@@ -36,7 +36,7 @@ body{
 }
 
 .dropdown-menu{
-    padding: 32px;
+    padding: 20px;
     border: 0;
     border-radius: 10px;
 }
@@ -49,9 +49,14 @@ body{
 .dropdown-item{
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 250%;
+    font-size: 16px;
+    line-height: 200%;
     /* color: #021639; */
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 
@@ -525,6 +530,10 @@ section.signup form{
     font-size: 16px;
     line-height: 188%;
     padding: 15px;
+
+    /* background: url('../images/img-flag-us.png');
+    background-repeat: no-repeat;
+    background-position: center left; */
 }
 .form-field{
     border: 1px solid #D4D5D9 !important;
@@ -647,12 +656,12 @@ section.merchant-services .container{
     margin-bottom: 152px;
 }
 .services-item{
-    height: 261px;
+    height: 100px;
     padding: 35px;
     /* background: #FFA200; */
     border: 1px solid #FFA200;
     box-shadow: 0px 20px 44px -24px rgba(255, 162, 0, 0.25);
-    border-radius: 40px;
+    border-radius: 20px;
     color: #FFA200;
 }
 .services-item:hover{
@@ -893,7 +902,12 @@ ul.nav-footer li{
     section.paytriot-ads img{
         width: auto;
     }
-    
+
+    /* section merchant-services  */
+    .services-item{
+        height: 261px;
+        border-radius: 40px;
+    }
 
 
     /* section footer  */

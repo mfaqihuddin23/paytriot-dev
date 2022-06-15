@@ -25,8 +25,8 @@ body{
     opacity: 0%;
 }
 .navbar{
-    padding-top: 57px;
-    margin-bottom: 91px;
+    padding: 25px 0;
+    /* margin-bottom: 91px; */
 }
 .container-fluid{
     max-width: 1170px;
@@ -48,15 +48,19 @@ body{
 }
 .dropdown-item{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 200%;
-    /* color: #021639; */
+    line-height: 24px;
+    color: #2B6BFD;
 }
 .navbar-nav .nav-link{
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+}
+.dropdown-menu li{
+    width: max-content;
+    max-width: 148px;
 }
 
 
@@ -267,6 +271,12 @@ h6{
     line-height: 120%;
     text-align: center;
     text-transform: capitalize;
+}
+.label-light{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
 }
 
 .big-title{
@@ -633,6 +643,7 @@ section.services {
     background: url('../images/img-services-header.png');
     background-position: center top;
     background-repeat: no-repeat;
+    padding-top: 111px;
     padding-bottom: 167px;
 }
 .text-services{
@@ -641,7 +652,7 @@ section.services {
 section.services h2{
     color: #021639 !important;
 }
-section.services p{
+section.services p.p-18{
     color: #021639 !important;
 }
 
@@ -788,8 +799,12 @@ ul.nav-footer li{
 @media (min-width: 992px) { 
     /* navbar  */
     .navbar{
-        padding-top: 31px;
-        margin-bottom: 40px;
+        /* padding-top: 31px; */
+        /* margin-bottom: 40px; */
+    }
+    .navbar-nav .nav-link{
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .dekstop{
@@ -965,7 +980,7 @@ ul.nav-footer li{
     background-color: #03011C;
 }
 .text-dark .dropdown-item{
-    color: #021639;
+    color: #2B6BFD;
 }
 .text-light .dropdown-item{
     color: #FFFFFF;

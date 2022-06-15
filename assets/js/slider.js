@@ -24,9 +24,9 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 40
       }
     },
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
     direction: 'horizontal',
     loop: true,
   
@@ -66,9 +66,9 @@ const swiperlogo = new Swiper('.swiperlogo', {
       spaceBetween: 40
     }
   },
-  autoplay: {
-    delay: 2000,
-  },
+  // autoplay: {
+  //   delay: 2000,
+  // },
   direction: 'horizontal',
   loop: true,
 

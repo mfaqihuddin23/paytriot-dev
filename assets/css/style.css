@@ -169,8 +169,11 @@ h5{
     line-height: 150%;
     color: #021639;
 }
-h5.dropdown-item{
-    color: #F7931E !important;
+h5 a{
+    font-weight: 700;
+    line-height: 24px;
+    color: #2B6BFD !important;
+    text-decoration: none;
 }
 h6{
     font-style: normal;
@@ -608,6 +611,16 @@ section.wallet p{
     max-width: 40px;
     max-height: 40px;
 }
+.accordion-button{
+    border-radius: 20px !important;
+}
+.accordion-item {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px !important;
+    margin-bottom: 20px;
+}
 
 /* section banking  */
 section.banking{
@@ -1010,7 +1023,13 @@ ul.nav-footer li{
 .text-light .p-16{
     color: #FFFFFF;
 }
+.text-light .p-14{
+    color: #FFFFFF !important;
+}
 .text-light .label-14{
+    color: #FFFFFF !important;
+}
+.text-light .partners-txt{
     color: #FFFFFF !important;
 }
 

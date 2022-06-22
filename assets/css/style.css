@@ -337,6 +337,21 @@ section.hero p{
     max-width: 126px;
     max-height: 87px;
 }
+.logo-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    opacity: 0;
+    /* transition: .5s ease; */
+    background-color:#FFFFFF;
+}
+.logo-sponsor:hover .logo-hover{
+    opacity: 1;
+}
 .sponsor1{
     background: url('../images/hilton-logo.png');
 }
@@ -374,6 +389,7 @@ section.wedo p{
 /* section feature */
 section.feature .row{
     margin-bottom: 100px;
+    background: #FFFFFF;
 }
 section.feature img{
     max-height: 628px;
@@ -1140,6 +1156,9 @@ ul.nav-footer li{
 }
 
 /* section feature */
+.bg-dark section.feature .row{
+    background: #03011C;
+}
 
 /* section supercharge */
 .bg-dark section.supercharge{

@@ -376,11 +376,18 @@ section.wedo p{
 }
 
 /* section feature */
+
 section.feature .row{
+    max-height: 628px;
     margin-bottom: 100px;
     background: #FFFFFF;
 }
 section.feature img{
+    max-height: 628px;
+    max-width: 100%;
+}
+section.feature lottie-player{
+    height: 100%;
     max-height: 628px;
     max-width: 100%;
 }
@@ -441,8 +448,26 @@ section.paytriot-ads img{
 section.our-story{
     padding: 120px 0;
 }
-section.our-story .row{
+section.our-story .story-wrapper{
     margin-top: 4rem;
+}
+.yearbtn{
+    background: #F7931E;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 42.8345px;
+    padding: 12px 29px;
+    max-width: 100px;
+    z-index: 100;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+
+    top: 20%;
+    left: 46%;
 }
 .story-bullet-outer{
     background: #808B9C;
@@ -919,6 +944,7 @@ ul.nav-footer li{
     }
 
     /* section feature */
+    
     section.feature .row{
         margin-bottom: 120px;
     }

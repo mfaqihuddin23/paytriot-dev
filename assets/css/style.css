@@ -337,6 +337,10 @@ section.hero p{
     max-width: 126px;
     max-height: 87px;
 }
+.logo-base{
+    height: 100%;
+    width: auto;
+}
 .logo-hover{
     position: absolute;
     top: 0;
@@ -351,21 +355,6 @@ section.hero p{
 }
 .logo-sponsor:hover .logo-hover{
     opacity: 1;
-}
-.sponsor1{
-    background: url('../images/hilton-logo.png');
-}
-.sponsor2{
-    background: url('../images/PizzaHut.png');
-}
-.sponsor3{
-    background: url('../images/logo-matra.png');
-}
-.sponsor4{
-    background: url('../images/logo-drk.png');
-}
-.sponsor5{
-    background: url('../images/logo-hi.png');
 }
 img.about-hero{
     padding: 85px 0;
@@ -1079,6 +1068,9 @@ ul.nav-footer li{
 }
 
 /* sponsor logo  */
+.bg-dark .logo-hover{
+    background-color:#03011C;
+}
 /* #1  */
 .bg-light .sponsor1-light{
     display: block;

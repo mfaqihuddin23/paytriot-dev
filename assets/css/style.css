@@ -721,6 +721,9 @@ section.dashboard {
 }
 
 /* section merchant-services  */
+section.merchant-services{
+    padding-bottom: 152px;
+}
 section.merchant-services .container{
     margin-bottom: 152px;
 }

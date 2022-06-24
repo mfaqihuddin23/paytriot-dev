@@ -280,6 +280,7 @@ h6{
     font-weight: 300;
     font-size: 12px;
     line-height: 150%;
+    color: #212A44;
 }
 
 .big-title{
@@ -306,6 +307,7 @@ h6{
 /* section  */
 /* section hero  */
 section.hero{
+    margin-top: 50px;
     background: url('../images/bg-hero.svg');
     background-repeat: no-repeat;
     /* background-size: auto; */
@@ -669,7 +671,7 @@ section.wallet p{
 
 /* section banking  */
 section.banking{
-    padding-bottom: 130px;
+   padding: 90px 0;
 }
 
 /* section account  */
@@ -931,6 +933,9 @@ ul.nav-footer li{
 
     /* section  */
     /* section hero  */
+    section.hero{
+        margin-top: 100px;
+    }
     section.hero .container{
         padding-bottom: 120px;
     }
@@ -984,6 +989,11 @@ ul.nav-footer li{
     .services-item{
         height: 261px;
         border-radius: 40px;
+    }
+
+    /* section banking  */
+    section.banking{
+        padding: 130px 0;
     }
 
 
@@ -1045,7 +1055,7 @@ ul.nav-footer li{
     color: #2B6BFD;
 }
 .text-light .dropdown-item{
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 /* typography  */
@@ -1080,6 +1090,9 @@ ul.nav-footer li{
 }
 .text-light .partners-txt{
     color: #FFFFFF !important;
+}
+.text-light .label-light{
+    color: #FFFFFF;
 }
 
 /* section hero  */
@@ -1171,8 +1184,18 @@ ul.nav-footer li{
     box-shadow: 0px 8.57283px 42.8641px rgba(0, 0, 0, 0.05);
 }
 
+/* section account  */
+.bg-dark section.account {
+    background: #13121D;
+}
+
 /* section wedo  */
 .bg-dark section.wedo {
+    background: #13121D;
+}
+
+/* section contact-us */
+.bg-dark .contact-wrap{
     background: #13121D;
 }
 

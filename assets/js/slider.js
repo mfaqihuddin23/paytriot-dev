@@ -24,9 +24,9 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 40
       }
     },
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
     direction: 'horizontal',
     loop: true,
   
@@ -62,7 +62,7 @@ const swiperlogo = new Swiper('.swiperlogo', {
     },
     // when window width is >= 992px
     992: {
-      slidesPerView: 5,
+      slidesPerView: 6,
       spaceBetween: 40
     }
   },

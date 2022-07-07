@@ -183,6 +183,23 @@ h6{
     text-transform: capitalize;
     color: #021639;
 }
+.nav-l ul{
+    list-style:none;
+}
+.label-nav a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #021639;
+    opacity: 0.3;
+    text-decoration: none;
+}
+.label-nav.active a{
+    opacity: 1;
+}
 
 
 .p-18{
@@ -299,6 +316,29 @@ h6{
     color: #FFFFFF !important;
 }
 
+.big-title::before{
+    content:"";
+    animation: big-title 3s linear infinite;
+}
+@keyframes big-title {
+    0% { content:"Approval Rate?"}
+    20% { content:"Uptime?" }
+    40% { content:"Amount of currencies?"}
+    60% { content:"Where are we based?"}
+    80% { content:"Do we have a support team?"}
+}
+.big-quest::before{
+    content:"";
+    animation: big-quest 3s linear infinite;
+}
+@keyframes big-quest {
+    0% { content:"90%"}
+    20% { content:"98%" }
+    40% { content:"142"}
+    60% { content:"UK"}
+    80% { content:"Absolutely"}
+}
+
 /* color  */
 .orange{
     color: #F7931E;
@@ -368,10 +408,10 @@ section.wedo {
     /* background: #F5FAFB; */
     padding: 100px 0px;
     margin-bottom: 75px;
-    animation-name: backgroundColorPalette;
+    /* animation-name: backgroundColorPalette;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 section.wedo p{
     max-width: 836px;
@@ -925,7 +965,8 @@ ul.nav-footer li{
     }
 
     .big-title{
-        font-size: 88px;
+        /* font-size: 88px; */
+        font-size: 55px;
     }
     .big-text{
         font-size: 108px;

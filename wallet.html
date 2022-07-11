@@ -114,14 +114,14 @@
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     <img src="assets/images/icon-wallet.svg" alt="">
                     <p class="p-18 ms-3">
                       Accept Paytriot Wallet
                     </p>
                   </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p class="p-16">
                       If you are an online business add the Paytriot Wallet to your site. This will open you up to a network of Paytriot personal users that can now at spend at your site. Promotions and marketing will be sent to active users to make them aware you are now accepting payment via Paytriot
@@ -133,14 +133,14 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                     <img src="assets/images/icon-exchange.svg" alt="">
                     <p class="p-18 ms-3">
                       Exhange Currencies
                     </p>
                   </button>
                 </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p class="p-16">
                       Hold a currency account in 140+ different currencies, allowing you to send and receive money in your local currency to any Paytriot account globally.<br><br>
@@ -153,14 +153,14 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                     <img src="assets/images/icon-debit-card.svg" alt="">
                     <p class="p-18 ms-3">
                       Debit Card
                     </p>
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseThree" class="accordion-collapse collapse show" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p class="p-16">
                       Add a debit card to your wallet to allow you to spend your funds at your local or online businesses. Use your debit card to withdraw money from ATMs globally. Debit Cards can be changed to different currencies within your account to use your card abroad and spend money in the local currency. Saving you from unwanted Foreign Exchange fees charged by your bank or credit card provider.
@@ -172,14 +172,14 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                     <img src="assets/images/icon-topup.svg" alt="">
                     <p class="p-18 ms-3">
                       Top Up and Withdrawals
                     </p>
                   </button>
                 </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p class="p-16">
                       Top up your wallet using Visa or MasterCard along with global alternative payment methods to load to the account. Once the account has been loaded you will be able to use your funds instantly to spend. Need to withdraw funds? Not an issue, request a withdrawal to the verified bank account on your wallet and funds will be sent out with no further delay.
@@ -191,9 +191,12 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 offset-1">
+          <div class="col-lg-6 offset-1 position-relative" id="lottie-wrap">
             <!-- <img src="assets/images/img-phone-wallet.svg" alt="" class="w-100"> -->
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_m6kbv3j2/Wallet/data.json" background="transparent"  speed="1"  style="" loop autoplay></lottie-player>
+            <!-- <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_m6kbv3j2/Wallet/data.json" background="transparent"  speed="1"  style="" loop autoplay></lottie-player> -->
+            <div class="lottie-container position-sticky top-0">
+              <lottie-player class="" id="walletLottie" src="https://assets10.lottiefiles.com/packages/lf20_m6kbv3j2/Wallet/data.json" style="width:400px; height: 400px;">"></lottie-player>
+            </div>
           </div>
         </div>
         
@@ -351,9 +354,25 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <script src="assets/js/switch.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
+    <!-- <script src="assets/js/smoothscroll.js"></script> -->
     <script src="assets/js/slider.js"></script>
+
+    <script>
+      LottieInteractivity.create({
+          player: '#walletLottie',
+          mode: 'scroll',
+          container: "#lottie-wrap",
+          actions: [
+              {
+                  visibility:[0,1.0],
+                  type: 'seek',
+                  frames: [ 0, 100],
+              },
+          ]
+      });
+      </script>
 
   </body>
 </html>

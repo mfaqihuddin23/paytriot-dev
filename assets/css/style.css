@@ -405,7 +405,7 @@ img.about-hero{
 
 /* section wedo  */
 section.wedo {
-    /* background: #F5FAFB; */
+    background: #F5FAFB;
     padding: 100px 0px;
     margin-bottom: 75px;
     /* animation-name: backgroundColorPalette;
@@ -415,6 +415,7 @@ section.wedo {
 }
 section.wedo p{
     max-width: 836px;
+    
 }
 
 /* section feature */

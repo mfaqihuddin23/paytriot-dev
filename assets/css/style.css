@@ -606,7 +606,11 @@ section.partners{
 
 /* section signup */
 section.signup form{
-    max-width: 450px;
+    max-width: 570px;
+    padding: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
 }
 .form-select{
     border: 1px solid #D4D5D9 !important;
@@ -616,6 +620,8 @@ section.signup form{
     font-size: 16px;
     line-height: 188%;
     padding: 15px;
+    background-image: url('../images/Stroke-1.png');
+    background-size: auto;
 
     /* background: url('../images/img-flag-us.png');
     background-repeat: no-repeat;
@@ -1136,6 +1142,24 @@ ul.nav-footer li{
 .text-light .label-light{
     color: #FFFFFF;
 }
+.text-light .label-form{
+    color: #FFFFFF;
+}
+.text-light .label-account{
+    color: #FFFFFF;
+}
+.text-light .form-select{
+    color: #FFFFFF;
+    background-color: #13121D;
+    background-image: url('../images/Stroke-2.png');
+    /* background-size: auto; */
+}
+.text-light .label-check{
+    /* color: #FFFFFF; */
+}
+.text-light .label-check a{
+    color: #FFFFFF;
+}
 
 /* section hero  */
 .bg-light section.hero{
@@ -1272,6 +1296,11 @@ ul.nav-footer li{
 }
 .bg-dark .testi-wrap{
     background: #03011C;
+}
+
+/* section signup */
+.bg-dark section.signup form{
+    background: #13121D;
 }
 
 /* section wallet */

@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swipercust', {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 10,
@@ -71,5 +71,17 @@ const swiperlogo = new Swiper('.swiperlogo', {
   // },
   direction: 'horizontal',
   loop: true,
+
+});
+const swipertext = new Swiper('.swipertext', {
+  // Optional parameters
+  slidesPerView: 'auto',
+  direction: 'vertical',
+  autoHeight: true,
+  loop: true,
+  spaceBetween: 0,
+  autoplay: {
+    delay: 2000,
+  }
 
 });

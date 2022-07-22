@@ -318,7 +318,7 @@ h6{
 
 .big-title::before{
     content:"";
-    animation: big-title 3s linear infinite;
+    /* animation: big-title 15s linear infinite; */
 }
 @keyframes big-title {
     0% { content:"Approval Rate?"}
@@ -329,7 +329,7 @@ h6{
 }
 .big-quest::before{
     content:"";
-    animation: big-quest 3s linear infinite;
+    /* animation: big-quest 15s linear infinite; */
 }
 @keyframes big-quest {
     0% { content:"90%"}
@@ -412,6 +412,10 @@ section.wedo {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate; */
+}
+section.wedo .swiper-slide{
+    display: flex;
+    justify-content: center;
 }
 section.wedo p{
     max-width: 836px;

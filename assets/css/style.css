@@ -680,6 +680,9 @@ section.signup form{
 section.wallet{
     padding-bottom: 120px;
 }
+section.wallet .btn-primary{
+    max-width: 414px;
+}
 /* section.wallet h2{
     color: #021639;
 } */

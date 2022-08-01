@@ -718,9 +718,11 @@ section.wallet p{
 }
 .accordion-button::after{
     background-image: url('../images/icon-arrow-accordion.svg');
+    
 }
 .accordion-button:not(.collapsed)::after{
     background-image: url('../images/icon-arrow-accordion.svg');
+    transform: rotate(180deg);
 }
 
 /* section banking  */

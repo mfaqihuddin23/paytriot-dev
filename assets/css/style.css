@@ -711,16 +711,16 @@ section.wallet p{
 .accordion-button:not(.collapsed){
     background-color: transparent;
     border-radius: 20px 20px 0 0 !important;
-    /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%) !important; */
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%) !important;
 }
 .accordion-button:focus{
     box-shadow: none;
 }
 .accordion-button::after{
-    background-image: url('../images/icon-accordion.svg');
+    background-image: url('../images/icon-arrow-accordion.svg');
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url('../images/icon-accordion.svg');
+    background-image: url('../images/icon-arrow-accordion.svg');
 }
 
 /* section banking  */

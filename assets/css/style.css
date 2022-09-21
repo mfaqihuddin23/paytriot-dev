@@ -811,6 +811,23 @@ section.merchant-services div.text-wrap{
     overflow: hidden;
 }
 
+/* section pricing header*/
+section.pricing-header .txt-wrap{
+    max-width: 600px;
+}
+section.pricing-header h1{
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #03011C;
+}
+section.pricing-header h2{
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #03011C;
+}
+
 /* section footer  */
 section.footer{
     padding: 100px 0;

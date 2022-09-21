@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>PAYTRIOT</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="textswitch">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <!-- <img src="assets/images/img-logo.svg" alt="" > -->
+          <div class="logo-light" id="logoswitch">
+            <img src="assets/images/img-logo.svg" alt="" class="img-logo">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-lg-2 text-center mb-5 mb-lg-0">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-lg-2 text-center mb-5 mb-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Company
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light start-0 mt-4" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <div class="d-flex justify-content-center">
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="about-us.html">About Us <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis. Interdum et malesuada fames</label>
+                        <h5 class="mt-4">
+                          <a href="">Learn more <img src="assets/images/icon-arrow-right.svg" alt=""></a>
+                        </h5>
+                      </li>
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="services.html">Service <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis</label>
+                      </li>
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="partners.html">Partners <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis</label>
+                      </li>
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="news.html">Blog <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis</label>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-lg-2 text-center mb-5 mb-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light start-0 mt-4" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <div class="d-flex justify-content-center">
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="bank-account.html">Bank Account <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis. Interdum et malesuada fames</label>
+                        <h5 class="mt-4">
+                          <a href="">Learn more <img src="assets/images/icon-arrow-right.svg" alt=""></a>
+                        </h5>
+                      </li>
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="wallet.html">Wallet <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis</label>
+                      </li>
+                      <li class="me-4">
+                        <a class="dropdown-item ps-lg-0 text-center text-lg-start" href="services.html">Merchant Service <img src="assets/images/icon-arrow-upright.svg" alt="" class="me-1"></a>
+                        <label for="link description" class="label-light">Proin accumsan mollis venenatis</label>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-lg-2 text-center mb-5 mb-lg-0">
+              <a class="nav-link" aria-current="page" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center flex-column flex-lg-row">
+            <a href="signin.html" class="btn btn-outline-primary me-lg-4 w-100 mb-4 mb-lg-0" >Sign In</a>
+            <div class="form-check form-switch">
+              <input class="form-check-input mt-0" type="checkbox" id="lightSwitch" onclick="playAudio()"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="pricing-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="txt-wrap">
+              <h1 class="mb-3">
+                Monthly Flat Fee
+              </h1>
+              <h2 class="fw-normal mb-5">
+                No More Charge Per Transaction
+              </h2>
+              <p class="p-18">
+                Stop paying fees per transaction, Paytriot charges a flat monthly fee for small businesses. Avoid the unnecessary costs of fees per transaction and having higher costs as you grow.
+                <br> <br>
+                If you are low risk small business use the sliding scale below to see how much you would pay. Accounts are setup instantly and start integrating Paytriot to your site straight away.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="holder d-flex justify-content-lg-end">
+              <svg width="446" height="405" viewBox="0 0 446 405" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="81" width="355" height="321" rx="36.3948" fill="url(#paint0_linear_1929_1110)"/>
+                <g filter="url(#filter0_d_1929_1110)">
+                <g filter="url(#filter1_b_1929_1110)">
+                <rect x="31" y="35" width="373" height="338" rx="36.3948" fill="white" fill-opacity="0.95"/>
+                </g>
+                <g opacity="0.1" filter="url(#filter2_f_1929_1110)">
+                <rect x="64.8301" y="196.114" width="315.923" height="55.2405" rx="16.1359" fill="black"/>
+                </g>
+                <g filter="url(#filter3_d_1929_1110)">
+                <g clip-path="url(#clip0_1929_1110)">
+                <rect x="53" y="64" width="328.602" height="279.905" rx="18.1974" fill="url(#paint1_linear_1929_1110)"/>
+                <path opacity="0.1" d="M187.949 300.863C147.642 298.932 69.9688 338.211 69.9688 376.277L77.7906 379.905H391.969V152.946C370.024 151.51 322.814 187.653 313.098 227.33C297.455 291.216 232.924 303.018 187.949 300.863Z" fill="#F6F6F7"/>
+                <path opacity="0.1" d="M225.415 277.37C184.818 276.693 121.969 315.028 121.969 353.261L129.839 356.905H445.969V128.949C423.888 127.507 363.329 161.134 356.77 209.744C347.93 275.264 265.423 278.037 225.415 277.37Z" fill="#F6F6F7"/>
+                <path opacity="0.5" d="M91.46 176.292V178.132H87.52V190.412H85.22V178.132H81.3V176.292H91.46ZM98.2013 179.252C99.2679 179.252 100.228 179.479 101.081 179.932C101.935 180.385 102.601 181.039 103.081 181.892C103.561 182.745 103.801 183.745 103.801 184.892C103.801 186.052 103.561 187.059 103.081 187.912C102.601 188.765 101.935 189.419 101.081 189.872C100.228 190.325 99.2679 190.552 98.2013 190.552C97.1346 190.552 96.1746 190.325 95.3213 189.872C94.4813 189.419 93.8146 188.765 93.3213 187.912C92.8413 187.045 92.6013 186.039 92.6013 184.892C92.6013 183.745 92.8413 182.745 93.3213 181.892C93.8146 181.039 94.4813 180.385 95.3213 179.932C96.1746 179.479 97.1346 179.252 98.2013 179.252ZM98.2013 181.232C97.6146 181.232 97.0746 181.365 96.5813 181.632C96.0879 181.899 95.6879 182.312 95.3813 182.872C95.0879 183.419 94.9413 184.092 94.9413 184.892C94.9413 185.705 95.0879 186.385 95.3813 186.932C95.6879 187.479 96.0879 187.885 96.5813 188.152C97.0746 188.419 97.6146 188.552 98.2013 188.552C98.7879 188.552 99.3279 188.419 99.8213 188.152C100.315 187.885 100.708 187.479 101.001 186.932C101.308 186.385 101.461 185.705 101.461 184.892C101.461 184.092 101.308 183.419 101.001 182.872C100.708 182.312 100.315 181.899 99.8213 181.632C99.3279 181.365 98.7879 181.232 98.2013 181.232ZM111.533 188.432V190.412H110.133C108.96 190.412 108.067 190.132 107.453 189.572C106.853 188.999 106.553 188.052 106.553 186.732V181.332H104.973V179.392H106.553V176.652H108.853V179.392H111.513V181.332H108.853V186.772C108.853 187.399 108.967 187.832 109.193 188.072C109.433 188.312 109.847 188.432 110.433 188.432H111.533ZM118.089 179.252C119.089 179.252 119.942 179.499 120.649 179.992C121.356 180.485 121.856 181.139 122.149 181.952V179.392H124.429V190.412H122.149V187.852C121.856 188.665 121.356 189.319 120.649 189.812C119.942 190.305 119.089 190.552 118.089 190.552C117.129 190.552 116.269 190.325 115.509 189.872C114.762 189.419 114.176 188.765 113.749 187.912C113.322 187.059 113.109 186.052 113.109 184.892C113.109 183.745 113.322 182.745 113.749 181.892C114.176 181.039 114.762 180.385 115.509 179.932C116.269 179.479 117.129 179.252 118.089 179.252ZM118.789 181.252C117.776 181.252 116.962 181.579 116.349 182.232C115.749 182.872 115.449 183.759 115.449 184.892C115.449 186.025 115.749 186.919 116.349 187.572C116.962 188.212 117.776 188.532 118.789 188.532C119.429 188.532 120.002 188.385 120.509 188.092C121.016 187.785 121.416 187.359 121.709 186.812C122.002 186.265 122.149 185.625 122.149 184.892C122.149 184.172 122.002 183.539 121.709 182.992C121.416 182.432 121.016 182.005 120.509 181.712C120.002 181.405 119.429 181.252 118.789 181.252ZM129.445 175.612V190.412H127.165V175.612H129.445Z" fill="white"/>
+                <path d="M101.242 125.394C103.987 126.245 106.23 127.076 107.97 127.888C109.71 128.7 111.179 129.918 112.378 131.542C113.615 133.127 114.234 135.215 114.234 137.806C114.234 139.894 113.693 141.827 112.61 143.606C111.527 145.346 109.903 146.757 107.738 147.84C105.573 148.884 102.943 149.406 99.85 149.406H99.792V154.046H97.588V149.29C93.5667 148.942 90.28 147.705 87.728 145.578C85.2147 143.413 83.8227 140.609 83.552 137.168H92.252C92.4067 138.56 92.948 139.797 93.876 140.88C94.804 141.924 96.0413 142.601 97.588 142.91V131.542L96.428 131.194C93.644 130.382 91.382 129.589 89.642 128.816C87.9407 128.004 86.4713 126.805 85.234 125.22C84.0353 123.596 83.436 121.469 83.436 118.84C83.436 116.559 84.0353 114.567 85.234 112.866C86.4713 111.165 88.1533 109.85 90.28 108.922C92.4453 107.994 94.8813 107.511 97.588 107.472V102.6H99.792V107.53C103.813 107.801 107.003 108.98 109.362 111.068C111.759 113.117 113.113 115.747 113.422 118.956H104.606C104.413 117.68 103.891 116.597 103.04 115.708C102.228 114.78 101.145 114.181 99.792 113.91V124.93L101.242 125.394ZM92.194 118.492C92.194 119.884 92.658 121.025 93.586 121.914C94.514 122.765 95.848 123.519 97.588 124.176V113.736C95.8867 113.813 94.5527 114.258 93.586 115.07C92.658 115.882 92.194 117.023 92.194 118.492ZM99.792 143.142C101.571 143.103 102.963 142.62 103.968 141.692C104.973 140.725 105.476 139.488 105.476 137.98C105.476 136.549 104.973 135.409 103.968 134.558C103.001 133.669 101.609 132.915 99.792 132.296V143.142ZM127.938 136.82C128.557 140.841 130.645 142.852 134.202 142.852C136.909 142.852 138.862 141.673 140.06 139.314C141.259 136.917 141.781 133.185 141.626 128.12C141.008 129.976 139.79 131.465 137.972 132.586C136.194 133.669 134.106 134.21 131.708 134.21C127.764 134.21 124.652 133.031 122.37 130.672C120.128 128.275 119.006 124.891 119.006 120.522C119.006 117.854 119.548 115.476 120.63 113.388C121.713 111.261 123.318 109.599 125.444 108.4C127.61 107.201 130.22 106.602 133.274 106.602C139.229 106.602 143.328 108.419 145.57 112.054C147.813 115.65 148.934 120.657 148.934 127.076C148.934 134.384 147.794 139.933 145.512 143.722C143.27 147.511 139.5 149.406 134.202 149.406C131.38 149.406 128.944 148.845 126.894 147.724C124.884 146.603 123.318 145.095 122.196 143.2C121.114 141.267 120.476 139.14 120.282 136.82H127.938ZM140.93 121.102C140.93 118.937 140.292 117.158 139.016 115.766C137.779 114.335 135.942 113.62 133.506 113.62C131.418 113.62 129.756 114.239 128.518 115.476C127.281 116.713 126.662 118.434 126.662 120.638C126.662 122.958 127.281 124.756 128.518 126.032C129.794 127.269 131.496 127.888 133.622 127.888C135.594 127.888 137.296 127.308 138.726 126.148C140.196 124.949 140.93 123.267 140.93 121.102ZM183.59 114.432H164.16V124.756C165.05 123.712 166.268 122.881 167.814 122.262C169.4 121.605 171.14 121.276 173.034 121.276C175.857 121.276 178.196 121.895 180.052 123.132C181.947 124.331 183.339 125.955 184.228 128.004C185.156 130.015 185.62 132.257 185.62 134.732C185.62 139.101 184.383 142.601 181.908 145.23C179.472 147.859 175.973 149.174 171.41 149.174C168.433 149.174 165.842 148.652 163.638 147.608C161.434 146.525 159.714 145.037 158.476 143.142C157.239 141.209 156.562 138.966 156.446 136.414H164.392C164.702 138.154 165.417 139.546 166.538 140.59C167.66 141.595 169.148 142.098 171.004 142.098C173.247 142.098 174.91 141.421 175.992 140.068C177.114 138.676 177.674 136.839 177.674 134.558C177.674 132.393 177.094 130.711 175.934 129.512C174.774 128.313 173.131 127.714 171.004 127.714C169.458 127.714 168.143 128.062 167.06 128.758C165.978 129.415 165.185 130.305 164.682 131.426H156.736V107.24H183.59V114.432ZM212.695 119.188C212.077 115.167 210.027 113.156 206.547 113.156C203.841 113.156 201.869 114.355 200.631 116.752C199.394 119.111 198.853 122.823 199.007 127.888C199.626 126.032 200.825 124.563 202.603 123.48C204.421 122.359 206.528 121.798 208.925 121.798C212.869 121.798 215.963 122.997 218.205 125.394C220.487 127.753 221.627 131.117 221.627 135.486C221.627 138.193 221.086 140.59 220.003 142.678C218.921 144.766 217.297 146.409 215.131 147.608C213.005 148.807 210.414 149.406 207.359 149.406C201.405 149.406 197.306 147.569 195.063 143.896C192.821 140.184 191.699 135.08 191.699 128.584C191.699 121.121 192.898 115.592 195.295 111.996C197.731 108.4 201.656 106.602 207.069 106.602C211.207 106.602 214.377 107.781 216.581 110.14C218.785 112.499 220.042 115.515 220.351 119.188H212.695ZM199.703 134.906C199.703 137.071 200.322 138.869 201.559 140.3C202.835 141.692 204.691 142.388 207.127 142.388C209.215 142.388 210.878 141.769 212.115 140.532C213.353 139.295 213.971 137.574 213.971 135.37C213.971 133.05 213.333 131.271 212.057 130.034C210.82 128.797 209.138 128.178 207.011 128.178C205.001 128.178 203.28 128.758 201.849 129.918C200.419 131.078 199.703 132.741 199.703 134.906Z" fill="white"/>
+                <path d="M346.359 119.088L333.086 132.361" stroke="white" stroke-width="3.4455" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M334.161 119.114L346.362 119.088L346.336 131.29" stroke="white" stroke-width="3.4455" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                </g>
+                </g>
+                <defs>
+                <filter id="filter0_d_1929_1110" x="3.22899" y="10.9318" width="428.542" height="393.542" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="3.7028"/>
+                <feGaussianBlur stdDeviation="13.8855"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1929_1110"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1929_1110" result="shape"/>
+                </filter>
+                <filter id="filter1_b_1929_1110" x="3.22899" y="7.22899" width="428.542" height="393.542" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feGaussianBlur in="BackgroundImage" stdDeviation="13.8855"/>
+                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1929_1110"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1929_1110" result="shape"/>
+                </filter>
+                <filter id="filter2_f_1929_1110" x="0.286392" y="131.571" width="445.011" height="184.328" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feGaussianBlur stdDeviation="32.2718" result="effect1_foregroundBlur_1929_1110"/>
+                </filter>
+                <filter id="filter3_d_1929_1110" x="31.2152" y="52.732" width="372.171" height="323.474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feMorphology radius="3.756" operator="erode" in="SourceAlpha" result="effect1_dropShadow_1929_1110"/>
+                <feOffset dy="10.5168"/>
+                <feGaussianBlur stdDeviation="12.7704"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.270588 0 0 0 0 0.305882 0 0 0 0 0.627451 0 0 0 0.07 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1929_1110"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1929_1110" result="shape"/>
+                </filter>
+                <linearGradient id="paint0_linear_1929_1110" x1="147.783" y1="-96.0246" x2="289.575" y2="409.485" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFE95D"/>
+                <stop offset="1" stop-color="#FF595D"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_1929_1110" x1="53.4495" y1="51.4011" x2="137.561" y2="432.78" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#AFB5FE"/>
+                <stop offset="1" stop-color="#6B5EFF"/>
+                </linearGradient>
+                <clipPath id="clip0_1929_1110">
+                <rect x="53" y="64" width="328.602" height="279.905" rx="18.1974" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="paytriot-ads">
+      <div class="container overflow-hidden">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1 d-flex align-items-center justify-content-center">
+            <div class="txt-wrap d-flex flex-column align-items-lg-start align-items-center py-5">
+              <h2 class="mb-4 mb-lg-5 text-center text-lg-start">
+                Charge Your Payment With Paytriot
+              </h2>
+              <div class="label-wrap d-flex flex-column flex-lg-row mb-5">
+                <div class="label-item d-flex align-items-center me-lg-5 mb-3 mb-lg-0">
+                  <div class="icon-small me-1">
+                    <img src="assets/images/icon-check-white.svg" alt="">
+                  </div>
+                  <label for="label-14" class="label-14">Quick Access</label>
+                </div>
+                <div class="label-item d-flex align-items-center me-lg-5 mb-3 mb-lg-0">
+                  <div class="icon-small me-1">
+                    <img src="assets/images/icon-check-white.svg" alt="">
+                  </div>
+                  <label for="label-14" class="label-14">24x7 Support</label>
+                </div>
+                <div class="label-item d-flex align-items-center">
+                  <div class="icon-small me-1">
+                    <img src="assets/images/icon-check-white.svg" alt="">
+                  </div>
+                  <label for="label-14" class="label-14">24x7 Support</label>
+                </div>
+              </div>
+              <div class="btn-wrap d-flex">
+                <a href="#" class="btn btn-outline-primary me-3" role="button" data-bs-toggle="button"><img src="assets/images/logo-googleplay.svg" alt="" class="w-100"></a>
+              <a href="#" class="btn btn-outline-primary" role="button" data-bs-toggle="button"><img src="assets/images/logo-appstore.svg" alt="" class="w-100"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex d-lg-block align-items-start">
+            <img src="assets/images/bg-paytriots-ads.png" alt="" class="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 mb-4 mb-lg-0 d-flex flex-column justify-content-between">
+                <div class="brand-wrap">
+                  <div class="footer-brand mb-4 mb-lg-5">
+                    <img src="assets/images/img-logo.svg" alt="" class="logo-footer img-logo">
+                  </div>
+                  <p class="label-14 mb-4 mb-lg-0">
+                    Payriot Payments has many years' experience in all aspects of the International and online financial world.
+                  </p>
+                </div>
+                <div class="socmed d-flex mb-4">
+                  <div class="icon-small icon1">
+                    <img src="assets/images/icon-facebook.svg" alt="" class="img-logo">
+                  </div>
+                  <div class="icon-small icon2">
+                    <img src="assets/images/icon-twitter.svg" alt="" class="img-logo">
+                  </div>
+                  <div class="icon-small icon3">
+                    <img src="assets/images/icon-linkedin.svg" alt="" class="img-logo">
+                  </div>
+                  <div class="icon-small icon4">
+                    <img src="assets/images/icon-youtube.svg" alt="" class="img-logo">
+                  </div>
+                  <div class="icon-small icon5">
+                    <img src="assets/images/icon-email.svg" alt="" class="img-logo">
+                  </div>
+                </div>
+                <label for="label-14/200% light " class="d-inline-block d-lg-none">@ 2021 Paytriot Ltd </label>
+              </div>
+              <div class="col-lg-3 offset-lg-1 pt-lg-3 mb-4">
+                <h4>Useful Links</h4>
+                <div class="nav-item-wrap d-flex justify-content-between justify-content-lg-start mt-3">
+                  <ul class="nav-footer ps-0 me-4">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                      <a href="news.html">News</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonial</a>
+                    </li>
+                    <li>
+                      <a href="partners.html">Clients</a>
+                    </li>
+                  </ul>
+                  <ul class="nav-footer ps-0">
+                    <li>
+                      <a href="services.html">Service</a>
+                    </li>
+                    <li>
+                      <a href="bank-account.html">Bank Account</a>
+                    </li>
+                    <li>
+                      <a href="partners.html">Partners</a>
+                    </li>
+                    <li>
+                      <a href="wallet.html">Wallet</a>
+                    </li>
+                    <li>
+                      <a href="contact-us.html">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="contact-card mb-4">
+                  <h4>Contact Details</h4>
+                  <div class="address-wrap">
+                    <label for="label-14/light" class="label-14"><span>Address:</span> The Charter Building, Charter Place, Uxbridge, UB8 1JG</label>
+                    <label for="label-14/light" class="label-14"><span>Phone:</span> +44 (0203)884 1611</label>
+                    <label for="label-14/light" class="label-14"><span>Email:</span> info@paytriot.co.uk</label>
+                  </div>
+                </div>
+                <div class="logo-payment d-flex align-items-center ps-lg-4">
+                  <div class="supportedby logo1">
+                    <img src="assets/images/logo-onthelist.svg" alt="" class="img-logo me-5">
+                  </div>
+                  <div class="supportedby logo2">
+                    <img src="assets/images/logo-mastercard.svg" alt="" class="img-logo me-5">
+                  </div>
+                  <div class="supportedby logo3">
+                    <img src="assets/images/logo-visa.svg" alt="" class="img-logo">
+                  </div>
+                </div>
+                <div class="terms-policy d-block d-lg-none mt-4">
+                  <a href="#" class="label-14 me-3">Terms & Agreements</a>
+                  <a href="#" class="label-14">Privacy Policy</a>
+                </div>
+              </div>
+          </div>
+          <div class="trademarks d-lg-flex justify-content-between d-none">
+            <label for="label-14/200% light">@ 2021 Paytriot Ltd </label>
+            <div class="terms-policy">
+              <a href="#" class="label-14 me-3">Terms & Agreements</a>
+              <a href="#" class="label-14">Privacy Policy</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="assets/js/switch.js"></script>
+    <!-- <script src="assets/js/smoothscroll.js"></script> -->
+    <script src="assets/js/slider.js"></script>
+
+    <script>
+      LottieInteractivity.create({
+          player: '#walletLottie',
+          mode: 'scroll',
+          container: "#lottie-wrap",
+          actions: [
+              {
+                  visibility:[0,1.0],
+                  type: 'seek',
+                  frames: [ 0, 300],
+              },
+          ]
+      });
+      </script>
+
+  </body>
+</html>

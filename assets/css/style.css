@@ -130,10 +130,7 @@ body{
     background-image: url('../images/icon_light_bulb_white.svg');
 }
 
-.active.secondary{
-    font-weight: bold;
-    color:#000000;
-}
+
 
 /* typography  */
 h1{
@@ -731,7 +728,7 @@ section.wallet p{
 
 /* section banking  */
 section.banking{
-   padding: 90px 0;
+  padding: 90px 0;
 }
 
 /* section account  */
@@ -816,6 +813,9 @@ section.merchant-services div.text-wrap{
 }
 
 /* section pricing header*/
+section.pricing-header{
+  padding: 120px 0;
+}
 section.pricing-header .txt-wrap{
     max-width: 600px;
 }
@@ -831,12 +831,46 @@ section.pricing-header h2{
     text-transform: capitalize;
     color: #03011C;
 }
+
+/* section tabs container*/
+section.tabs-container{
+  padding-bottom: 120px;
+}
+section.tabs-container .nav{
+  margin-bottom: 60px;
+}
+.secondary{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #03011C;
+}
+.active.secondary{
+  font-weight: 600;
+  color:#F7931E;
+}
+.nav-item .active.secondary{
+  border-bottom: 2px solid #F7931E;
+}
+.business-tab ul{
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
+  color: #FFFFFF;
+}
 .business-tab{
     background-color: #F5FAFB;
 }
-.plans-detail{
-    background-color: #F7931E ;
+.price-range{
+  padding: 80px 70px;
 }
+.plans-detail{
+  background-color: #F7931E ;
+  padding: 80px 50px;
+}
+
 
 /* section footer  */
 section.footer{

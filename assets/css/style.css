@@ -831,6 +831,12 @@ section.pricing-header h2{
     text-transform: capitalize;
     color: #03011C;
 }
+.business-tab{
+    background-color: #F5FAFB;
+}
+.plans-detail{
+    background-color: #F7931E ;
+}
 
 /* section footer  */
 section.footer{

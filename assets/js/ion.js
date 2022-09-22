@@ -2,7 +2,7 @@ var $range = $("#example_1");
 var $input = $("#example_1_input");
 var instance;
 var min = 0;
-var max = 1000;
+var max = 30000;
 
 var $plan = $("#pricingplan")
 var es = document.getElementById("pricingplan");

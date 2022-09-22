@@ -839,6 +839,9 @@ section.tabs-container{
 section.tabs-container .nav{
   margin-bottom: 60px;
 }
+section.tabs-container .txt-wrap{
+  padding: 0 70px;
+}
 .secondary{
   font-weight: 400;
   font-size: 18px;

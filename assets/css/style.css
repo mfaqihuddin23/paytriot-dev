@@ -866,6 +866,16 @@ section.tabs-container .txt-wrap{
 .business-tab{
     background-color: #F5FAFB;
 }
+.business-tab .form-select{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(6, 6, 6, 0.5);
+
+  padding: 15px 20px;
+  background-color: transparent;
+}
 .price-range{
   padding: 80px 70px;
 }
@@ -980,156 +990,156 @@ ul.nav-footer li{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    /* navbar  */
-    .navbar{
-        /* padding-top: 31px; */
-        /* margin-bottom: 40px; */
-    }
-    .navbar-nav .nav-link{
-        font-size: 14px;
-        line-height: 21px;
-    }
+  /* navbar  */
+  .navbar{
+      /* padding-top: 31px; */
+      /* margin-bottom: 40px; */
+  }
+  .navbar-nav .nav-link{
+      font-size: 14px;
+      line-height: 21px;
+  }
 
-    .dekstop{
-        display:inherit;
-    }
-    .mobile{
-        display: none;
-    }
+  .dekstop{
+      display:inherit;
+  }
+  .mobile{
+      display: none;
+  }
 
-    /* button  */
-    .btn{
-        padding: 21px 45px;
+  /* button  */
+  .btn{
+      padding: 21px 45px;
 
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .btn-outline-primary {
-        padding: 18px 33px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        text-align: center;
-    }
-    .btn-primary {
-        min-width: 200px;
-    }
-    .btn-secondary {
-        color: #021639;
-        background-color: #FFFFFF;
-        border-color: #FFFFFF;
-        min-width: 200px;
-        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
-    }
-    .meet-us{
-        font-weight: 500;
-        text-decoration: none;
-    }
-    .store{
-        background-color: #FFFFFF;
-    }
-    
-    /* typography  */
-    h1{
-        font-size: 72px;
-    }
-    h2{
-        font-size: 48px;
-    }
-    h3{
-        font-size: 24px;
-    }
+      font-size: 18px;
+      line-height: 27px;
+  }
+  .btn-outline-primary {
+      padding: 18px 33px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+  }
+  .btn-primary {
+    min-width: 200px;
+  }
+  .btn-secondary {
+    color: #021639;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    min-width: 200px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+  }
+  .meet-us{
+      font-weight: 500;
+      text-decoration: none;
+  }
+  .store{
+      background-color: #FFFFFF;
+  }
+  
+  /* typography  */
+  h1{
+      font-size: 72px;
+  }
+  h2{
+      font-size: 48px;
+  }
+  h3{
+      font-size: 24px;
+  }
 
-    .p-18{
-        font-size: 18px;
-    }
+  .p-18{
+      font-size: 18px;
+  }
 
-    .big-title{
-        /* font-size: 88px; */
-        font-size: 55px;
-    }
-    .big-text{
-        font-size: 108px;
-    }
+  .big-title{
+      /* font-size: 88px; */
+      font-size: 55px;
+  }
+  .big-text{
+      font-size: 108px;
+  }
 
-    /* section  */
-    /* section hero  */
-    section.hero{
-        margin-top: 100px;
-    }
-    section.hero .container{
-        padding-bottom: 120px;
-    }
-    .toolkit-wrap{
-        padding: 35px 34px;
-        margin-bottom: 30px;
-    }
-
-
-    /* section wedo  */
-    section.wedo{
-        padding: 225px 0px;
-        margin-bottom: 120px;
-    }
-
-    /* section feature */
-    
-    section.feature .row{
-        padding-bottom: 120px;
-    }
-
-    /* section supercharge  */
-    section.supercharge{
-        background: #F5FAFB;
-        padding: 140px 0px;
-    }
-    section.supercharge p{
-        margin-bottom: 70px;
-    }
-
-    /* section getpaid  */
-    section.getpaid{
-        padding: 200px 0;
-    }
-    .getpaid-wrap{
-        padding: 20px 30px;
-    }
-
-    /* section paytriot-ads */
-    section.paytriot-ads .container{
-        border-radius: 30px;
-    }
-    section.paytriot-ads .row{
-        border-radius: 30px;
-    }
-    section.paytriot-ads img{
-        width: auto;
-    }
-
-    /* section merchant-services  */
-    .services-item{
-        height: 261px;
-        border-radius: 40px;
-    }
-
-    /* section banking  */
-    section.banking{
-        padding: 130px 0;
-    }
+  /* section  */
+  /* section hero  */
+  section.hero{
+      margin-top: 100px;
+  }
+  section.hero .container{
+      padding-bottom: 120px;
+  }
+  .toolkit-wrap{
+      padding: 35px 34px;
+      margin-bottom: 30px;
+  }
 
 
-    /* section footer  */
-    .footer-brand{
-        background-size: cover;
-        width: 218px;
-        height: 72px;
-    }
-    section.footer p.label-14{
-        margin-bottom: 80px;
-    }
-    .contact-card{
-        padding: 30px 42px;
-    }
+  /* section wedo  */
+  section.wedo{
+      padding: 225px 0px;
+      margin-bottom: 120px;
+  }
+
+  /* section feature */
+  
+  section.feature .row{
+      padding-bottom: 120px;
+  }
+
+  /* section supercharge  */
+  section.supercharge{
+      background: #F5FAFB;
+      padding: 140px 0px;
+  }
+  section.supercharge p{
+      margin-bottom: 70px;
+  }
+
+  /* section getpaid  */
+  section.getpaid{
+      padding: 200px 0;
+  }
+  .getpaid-wrap{
+      padding: 20px 30px;
+  }
+
+  /* section paytriot-ads */
+  section.paytriot-ads .container{
+      border-radius: 30px;
+  }
+  section.paytriot-ads .row{
+      border-radius: 30px;
+  }
+  section.paytriot-ads img{
+      width: auto;
+  }
+
+  /* section merchant-services  */
+  .services-item{
+      height: 261px;
+      border-radius: 40px;
+  }
+
+  /* section banking  */
+  section.banking{
+      padding: 130px 0;
+  }
+
+
+  /* section footer  */
+  .footer-brand{
+      background-size: cover;
+      width: 218px;
+      height: 72px;
+  }
+  section.footer p.label-14{
+      margin-bottom: 80px;
+  }
+  .contact-card{
+      padding: 30px 42px;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */

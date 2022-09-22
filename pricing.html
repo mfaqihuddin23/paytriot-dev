@@ -222,18 +222,32 @@
             <div class="business-tab">
               <div class="row">
                 <div class="col-8 price-range">
-                  <input type="text" class="js-range-slider" id="example_1" name="my_range" value="" />
-                  
-                  <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" id="example_1_input" href="#" onclick="return false;">Action</a></li>
-                      <li><a class="dropdown-item" id="example_2_input" href="#" onclick="return false;">Another action</a></li>
-                      <li><a class="dropdown-item" id="example_3_input" href="#" onclick="return false;">Something else here</a></li>
-                    </ul>
+                  <h3 class="mb-5 fw-bold text-capitalize">
+                    Estimate Your Cost
+                  </h3>
+                  <div class="d-flex mb-4">
+                    <div class="w-100 me-3">
+                      <div class="p-16 mb-2">
+                        Plan
+                      </div>
+                      <select class="form-select" id="" aria-label="Default select example">
+                        <!-- <option selected>Open this select menu</option> -->
+                        <option value="100" selected>Domestic Transactions</option>
+                        <option value="200" >UK and Europe transactions</option>
+                      </select>
+                    </div>
+                    <div class="w-100 ms-3">
+                      <div class="p-16 mb-2">
+                        Billing
+                      </div>
+                      <select class="form-select" id="pricingplan" aria-label="Default select example">
+                        <!-- <option selected>Open this select menu</option> -->
+                        <option value="1000" selected>Monthly</option>
+                        <option value="10000" >Yearly</option>
+                      </select>
+                    </div>
                   </div>
+                  <input type="text" class="js-range-slider" id="example_1" name="my_range" value="" />
                 </div>
                 <div class="col plans-detail">
                   <h3 class="mb-3 text-white">

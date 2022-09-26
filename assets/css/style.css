@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 90%;
 }
 .container-fluid{
     width: 90%;
@@ -870,7 +870,7 @@ section.tabs-container .txt-wrap{
 .business-tab ul{
   list-style: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 250%;
   color: #FFFFFF;
 }
@@ -889,11 +889,11 @@ section.tabs-container .txt-wrap{
   background-image: url(../images/Stroke-1.png) !important;
 }
 .price-range{
-  padding: 80px 70px;
+  padding: 28px 28px;
 }
 .plans-detail{
   background-color: #F7931E ;
-  padding: 80px 50px;
+  padding: 44px 37px;
 }
 
 
@@ -1137,6 +1137,16 @@ ul.nav-footer li{
   /* section banking  */
   section.banking{
       padding: 130px 0;
+  }
+
+  .business-tab ul{
+    font-size: 16px;
+  }
+  .plans-detail{
+    padding: 80px 50px;
+  }
+  .price-range{
+    padding: 80px 70px;
   }
 
 

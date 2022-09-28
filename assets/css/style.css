@@ -443,6 +443,7 @@ section.feature lottie-player{
 section.supercharge{
     background: #F5FAFB;
     padding: 90px 0px;
+    z-index: 100;
 }
 section.supercharge p{
     max-width: 500px;

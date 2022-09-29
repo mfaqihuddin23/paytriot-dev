@@ -233,39 +233,60 @@
                       <div class="p-16 mb-2">
                         Plan
                       </div>
-                      <select class="form-select" id="" aria-label="Default select example">
+                      <select class="form-select" id="trans-dom" aria-label="Default select example" onchange="onChange2()">
                         <!-- <option selected>Open this select menu</option> -->
-                        <option value="100" selected>Domestic Transactions</option>
-                        <option value="200" >UK and Europe transactions</option>
+                        <option value="dom" selected>Domestic Transactions</option>
+                        <option value="ukeu" >UK and Europe transactions</option>
                       </select>
                     </div>
                     <div class="w-100 ms-lg-3">
                       <div class="p-16 mb-2">
                         Billing
                       </div>
-                      <select class="form-select" id="pricingplan" aria-label="Default select example">
+                      <select class="form-select" id="pricingplan" aria-label="Default select example" onchange="onChange1()">
                         <!-- <option selected>Open this select menu</option> -->
-                        <option value="1000" selected>Monthly</option>
-                        <option value="10000" >Yearly</option>
+                        <option value="Monthly" >Monthly</option>
+                        <option value="Yearly" >Yearly</option>
                       </select>
                     </div>
                   </div>
                   <input type="text" class="js-range-slider" id="example_1" name="my_range" value="" />
-                  <div class="d-flex justify-content-between mt-5 mb-4">
+                  <div class="d-flex justify-content-end my-3">
+                    <div class="disc-label text-center text-white" id="discount-js">
+                      15% off
+                    </div>
+                  </div>
+                  <!-- <div class="d-flex justify-content-end my-3">
+                    <div class="disc-label text-center text-white" id="discount-js2">
+                      12% off
+                    </div>
+                  </div> -->
+                  <div class="d-flex justify-content-between mb-4">
                     <p class="p-16">
                       Monthly – “Yearly Plan”
                     </p>
-                    <p class="p-16">
-                      £200
-                    </p>
+                    <div class="d-flex">
+                      <p class="p-16">
+                        £
+                      </p>
+                      <div class="p-16 result-js" id="pricetotal">
+
+                      </div>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between mb-4">
                     <p class="p-16">
                       Total
                     </p>
-                    <p class="p-16 fw-bold">
-                      £29/mo
-                    </p>
+                    <div class="d-flex">
+                      <p class="p-16 fw-bold">
+                        £
+                      </p>
+                      <div class="p-16 fw-bold" id="totalmonth">29</div>
+                      <p class="p-16 fw-bold">
+                        /mo
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div class="col plans-detail">

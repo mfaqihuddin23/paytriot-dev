@@ -831,6 +831,16 @@ section.pricing-header h2{
     text-transform: capitalize;
     color: #03011C;
 }
+.disc-label{
+  /* background: #F7931E; */
+  border-radius: 45px;
+  padding: 4px 14px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
 
 /* section tabs container*/
 section.tabs-container{

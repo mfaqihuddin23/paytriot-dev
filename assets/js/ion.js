@@ -217,23 +217,24 @@ function onChange2(){
   // var valopt1 = es.options[es.selectedIndex].text;
   
   var trans1 = parseFloat(pt.innerHTML)
-  console.dir(trans1)
+  
   var valopt2 = es2.options[es2.selectedIndex].text;
-  if(valopt2 == "Domestic Transactions" && trans1 >= 10000){
-    pt2.innerHTML= pricedom1
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 10000){
-    pt2.innerHTML= priceuk1
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 30000){
-    pt2.innerHTML= pricedom2
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 30000){
-    pt2.innerHTML= priceuk2
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 50000){
-    pt2.innerHTML= pricedom3
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 50000){
-    pt2.innerHTML= priceuk3
-  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 100000){
+  // console.dir(valopt2)
+  if(valopt2 == "Domestic Transactions" && trans1 >= 100000){
     pt2.innerHTML= pricedom4
   }else if(valopt2 == "UK and Europe transactions" && trans1 >= 100000){
     pt2.innerHTML= priceuk4
+  }else if(valopt2 == "Domestic Transactions" && trans1 >= 50000){
+    pt2.innerHTML= pricedom3
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 50000){
+    pt2.innerHTML= priceuk3
+  }else if(valopt2 == "Domestic Transactions" && trans1 >= 30000){
+    pt2.innerHTML= pricedom2
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 30000){
+    pt2.innerHTML= priceuk2
+  }else if(valopt2 == "Domestic Transactions" && trans1 >= 10000){
+    pt2.innerHTML= pricedom1
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 10000){
+    pt2.innerHTML= priceuk1
   }
 }

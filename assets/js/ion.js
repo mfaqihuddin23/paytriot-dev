@@ -36,7 +36,7 @@ var my_to = custom_values.indexOf(100000);
 var x = 0
 function prettify(num) {
   var n = num.toString();
-  return n.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + ",");
+  return n.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" );
 }
 
 
@@ -119,13 +119,13 @@ $range.ionRangeSlider({
   min: min,
   max: max,
   postfix: "/month",
-  prettify_separator: ",",
+  prettify_separator: "",
   from: 10000,
   onStart: function (data) {
     console.dir(data);
     // console.dir(monthcost);
     monthcost = pt2.innerHTML;
-    $pricing.prop("value", data.from);
+    // $pricing.prop("value", data.from);
     $pricing.text(prettify(data.from) );
     $result.text(prettify(29) );
     $tpn.text(prettify("Monthly Transaction"))
@@ -214,10 +214,26 @@ function onChange1(){
   }
 }
 function onChange2(){
+  // var valopt1 = es.options[es.selectedIndex].text;
+  
+  var trans1 = parseFloat(pt.innerHTML)
+  console.dir(trans1)
   var valopt2 = es2.options[es2.selectedIndex].text;
-  if(valopt2 == "Domestic Transactions"){
-    pt2.innerHTML= "29"
-  }else if(valopt2 == "UK and Europe transactions"){
-    pt2.innerHTML= "49"
+  if(valopt2 == "Domestic Transactions" && trans1 >= 10000){
+    pt2.innerHTML= pricedom1
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 10000){
+    pt2.innerHTML= priceuk1
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 30000){
+    pt2.innerHTML= pricedom2
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 30000){
+    pt2.innerHTML= priceuk2
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 50000){
+    pt2.innerHTML= pricedom3
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 50000){
+    pt2.innerHTML= priceuk3
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 100000){
+    pt2.innerHTML= pricedom4
+  }else if(valopt2 == "UK and Europe transactions" && trans1 >= 100000){
+    pt2.innerHTML= priceuk4
   }
 }

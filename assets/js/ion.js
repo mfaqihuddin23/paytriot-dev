@@ -130,7 +130,7 @@ $range.ionRangeSlider({
     // $pricing.prop("value", data.from);
     $pricing.text(prettify(data.from) );
     $result.text(prettify(29) );
-    $tpn.text(prettify("Monthly Transaction"))
+    $tpn.text(prettify("Monthly Transactions"))
     dj.style.color = "transparent"
     
   },

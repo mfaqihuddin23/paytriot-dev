@@ -148,38 +148,30 @@ $range.ionRangeSlider({
     
     if(val == "dom" ){
       if(data.from >= 10000 && valopt == "Monthly"){
-        $pricing.text(prettify(custom_1) );
         $result.text(prettify(pricedom1) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 10000 && valopt == "Yearly"){
-        $pricing.text(prettify(custom_1) );
         $result.text(prettify(pricedom1-(pricedom1*yeardisc)) );
         monthcost = pricedom1;
       }
       if(data.from >= 30000 && valopt == "Monthly"){
-        $pricing.text(prettify(custom_2) );
         $result.text(prettify(pricedom2) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 30000 && valopt == "Yearly"){
-        $pricing.text(prettify(custom_2) );
         $result.text(prettify(pricedom2-(pricedom2*yeardisc)) );
         monthcost = pricedom2;
       }
       if(data.from >= 50000 && valopt == "Monthly"){
-        $pricing.text(prettify(custom_3) );
         $result.text(prettify(pricedom3) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 50000 && valopt == "Yearly"){
-        $pricing.text(prettify(custom_3) );
         $result.text(prettify(pricedom3-(pricedom3*yeardisc)) );
         monthcost = pricedom3;
       }
       if(data.from >= 100000 && valopt == "Monthly"){
-        $pricing.text(prettify(custom_4) );
         $result.text(prettify(pricedom4) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 100000 && valopt == "Yearly"){
-        $pricing.text(prettify(custom_4) );
         $result.text(prettify(pricedom4-(pricedom4*yeardisc)) );
         monthcost = pricedom4;
       }
@@ -215,19 +207,19 @@ $range.ionRangeSlider({
       }
     }
 
-    // if(data.from == 10000 || data.from == 30000 || data.from == 50000 || data.from == 100000){
-    //   document.querySelector(".irs-single").style.display = "block"
-    // } else {
-    //   document.querySelector(".irs-single").style.display = "none"
-    // }
+    
     if(data.from >= 10000 && data.from <= 29999){
       document.querySelector(".irs-single").innerHTML = "10000/month"
+      document.querySelector("#pricetotal").innerHTML = "10000"
     } else if(data.from >= 30000 && data.from <= 49999){
       document.querySelector(".irs-single").innerHTML = "30000/month"
+      document.querySelector("#pricetotal").innerHTML = "30000"
     } else if(data.from >= 50000 && data.from <= 99999){
       document.querySelector(".irs-single").innerHTML = "50000/month"
+      document.querySelector("#pricetotal").innerHTML = "50000"
     } else if(data.from >= 100000 ){
       document.querySelector(".irs-single").innerHTML = "100000/month"
+      document.querySelector("#pricetotal").innerHTML = "100000"
     }
   },
   

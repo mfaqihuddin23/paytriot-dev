@@ -32,6 +32,11 @@ var priceuk2 =  parseFloat(69)
 var priceuk3 =  parseFloat(99)
 var priceuk4 =  parseFloat(139)
 
+var custom_1 = 10000;
+var custom_2 = 30000;
+var custom_3 = 50000;
+var custom_4 = 100000;
+
 var custom_values = [10000, 30000, 50000, 100000];
 var my_from = custom_values.indexOf(10000);
 var my_to = custom_values.indexOf(100000);
@@ -139,34 +144,42 @@ $range.ionRangeSlider({
     skin: "big"
     var val =es2.value;
     var valopt = es.value;
-    $pricing.text(prettify(data.from ) );
+    //$pricing.text(prettify(data.from ) );
     
     if(val == "dom" ){
       if(data.from >= 10000 && valopt == "Monthly"){
+        $pricing.text(prettify(custom_1) );
         $result.text(prettify(pricedom1) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 10000 && valopt == "Yearly"){
+        $pricing.text(prettify(custom_1) );
         $result.text(prettify(pricedom1-(pricedom1*yeardisc)) );
         monthcost = pricedom1;
       }
       if(data.from >= 30000 && valopt == "Monthly"){
+        $pricing.text(prettify(custom_2) );
         $result.text(prettify(pricedom2) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 30000 && valopt == "Yearly"){
+        $pricing.text(prettify(custom_2) );
         $result.text(prettify(pricedom2-(pricedom2*yeardisc)) );
         monthcost = pricedom2;
       }
       if(data.from >= 50000 && valopt == "Monthly"){
+        $pricing.text(prettify(custom_3) );
         $result.text(prettify(pricedom3) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 50000 && valopt == "Yearly"){
+        $pricing.text(prettify(custom_3) );
         $result.text(prettify(pricedom3-(pricedom3*yeardisc)) );
         monthcost = pricedom3;
       }
       if(data.from >= 100000 && valopt == "Monthly"){
+        $pricing.text(prettify(custom_4) );
         $result.text(prettify(pricedom4) );
         monthcost = pt2.innerHTML;
       }else if(data.from >= 100000 && valopt == "Yearly"){
+        $pricing.text(prettify(custom_4) );
         $result.text(prettify(pricedom4-(pricedom4*yeardisc)) );
         monthcost = pricedom4;
       }
